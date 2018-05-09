@@ -1,0 +1,73 @@
+U:\coo\ProG\ProG\Almontorie.ProG.ConsoleApp\bin\Debug\Almontorie.ProG.ConsoleApp.exe.config
+U:\coo\ProG\ProG\Almontorie.ProG.ConsoleApp\bin\Debug\Almontorie.ProG.ConsoleApp.exe
+U:\coo\ProG\ProG\Almontorie.ProG.ConsoleApp\bin\Debug\Almontorie.ProG.ConsoleApp.pdb
+U:\coo\ProG\ProG\Almontorie.ProG.ConsoleApp\obj\Debug\Almontorie.ProG.ConsoleApp.csprojResolveAssemblyReference.cache
+U:\coo\ProG\ProG\Almontorie.ProG.ConsoleApp\obj\Debug\Almontorie.ProG.ConsoleApp.exe
+U:\coo\ProG\ProG\Almontorie.ProG.ConsoleApp\obj\Debug\Almontorie.ProG.ConsoleApp.pdb
+E:\Documents\Mes documents\IUT\coo\ProG\ProG\Almontorie.ProG.ConsoleApp\obj\Debug\Almontorie.ProG.ConsoleApp.csprojResolveAssemblyReference.cache
+E:\Documents\Mes documents\IUT\coo\ProG\ProG\Almontorie.ProG.ConsoleApp\obj\Debug\Almontorie.ProG.ConsoleApp.csproj.CoreCompileInputs.cache
+E:\Documents\Mes documents\IUT\coo\ProG\ProG\Almontorie.ProG.ConsoleApp\obj\Debug\Almontorie.ProG.ConsoleApp.exe
+E:\Documents\Mes documents\IUT\coo\ProG\ProG\Almontorie.ProG.ConsoleApp\obj\Debug\Almontorie.ProG.ConsoleApp.pdb
+E:\Documents\Mes documents\IUT\coo\ProG\ProG\Almontorie.ProG.ConsoleApp\bin\Debug\Almontorie.ProG.ConsoleApp.exe.config
+E:\Documents\Mes documents\IUT\coo\ProG\ProG\Almontorie.ProG.ConsoleApp\bin\Debug\Almontorie.ProG.ConsoleApp.exe
+E:\Documents\Mes documents\IUT\coo\ProG\ProG\Almontorie.ProG.ConsoleApp\bin\Debug\Almontorie.ProG.ConsoleApp.pdb
+E:\Documents\Mes documents\IUT\coo\ProG\ProG\Almontorie.ProG.ConsoleApp\bin\Debug\Almontorie.ProG.Model.dll
+E:\Documents\Mes documents\IUT\coo\ProG\ProG\Almontorie.ProG.ConsoleApp\bin\Debug\Almontorie.ProG.Model.pdb
+E:\Documents\Mes documents\IUT\coo\ProG\ProG\Almontorie.ProG.ConsoleApp\obj\Debug\Almontorie.ProG.ConsoleApp.csproj.CopyComplete
+C:\Users\lucas\Dropbox\ProG C#\ProG\ProG\Almontorie.ProG.ConsoleApp\bin\Debug\Almontorie.ProG.ConsoleApp.exe.config
+C:\Users\lucas\Dropbox\ProG C#\ProG\ProG\Almontorie.ProG.ConsoleApp\bin\Debug\Almontorie.ProG.ConsoleApp.exe
+C:\Users\lucas\Dropbox\ProG C#\ProG\ProG\Almontorie.ProG.ConsoleApp\bin\Debug\Almontorie.ProG.ConsoleApp.pdb
+C:\Users\lucas\Dropbox\ProG C#\ProG\ProG\Almontorie.ProG.ConsoleApp\bin\Debug\Almontorie.ProG.Model.dll
+C:\Users\lucas\Dropbox\ProG C#\ProG\ProG\Almontorie.ProG.ConsoleApp\bin\Debug\Almontorie.ProG.Model.pdb
+C:\Users\lucas\Dropbox\ProG C#\ProG\ProG\Almontorie.ProG.ConsoleApp\obj\Debug\Almontorie.ProG.ConsoleApp.csprojResolveAssemblyReference.cache
+C:\Users\lucas\Dropbox\ProG C#\ProG\ProG\Almontorie.ProG.ConsoleApp\obj\Debug\Almontorie.ProG.ConsoleApp.csproj.CoreCompileInputs.cache
+C:\Users\lucas\Dropbox\ProG C#\ProG\ProG\Almontorie.ProG.ConsoleApp\obj\Debug\Almontorie.ProG.ConsoleApp.csproj.CopyComplete
+C:\Users\lucas\Dropbox\ProG C#\ProG\ProG\Almontorie.ProG.ConsoleApp\obj\Debug\Almontorie.ProG.ConsoleApp.exe
+C:\Users\lucas\Dropbox\ProG C#\ProG\ProG\Almontorie.ProG.ConsoleApp\obj\Debug\Almontorie.ProG.ConsoleApp.pdb
+U:\coo\ProG\ProG\Almontorie.ProG.ConsoleApp\bin\Debug\Almontorie.ProG.Model.dll
+U:\coo\ProG\ProG\Almontorie.ProG.ConsoleApp\bin\Debug\Almontorie.ProG.View.dll
+U:\coo\ProG\ProG\Almontorie.ProG.ConsoleApp\bin\Debug\Almontorie.ProG.Model.pdb
+U:\coo\ProG\ProG\Almontorie.ProG.ConsoleApp\bin\Debug\Almontorie.ProG.View.pdb
+F:\ProG\ProG\Almontorie.ProG.ConsoleApp\bin\Debug\Almontorie.ProG.ConsoleApp.exe.config
+F:\ProG\ProG\Almontorie.ProG.ConsoleApp\bin\Debug\Almontorie.ProG.ConsoleApp.exe
+F:\ProG\ProG\Almontorie.ProG.ConsoleApp\bin\Debug\Almontorie.ProG.ConsoleApp.pdb
+F:\ProG\ProG\Almontorie.ProG.ConsoleApp\bin\Debug\Almontorie.ProG.Model.dll
+F:\ProG\ProG\Almontorie.ProG.ConsoleApp\bin\Debug\Almontorie.ProG.View.dll
+F:\ProG\ProG\Almontorie.ProG.ConsoleApp\bin\Debug\Almontorie.ProG.Model.pdb
+F:\ProG\ProG\Almontorie.ProG.ConsoleApp\bin\Debug\Almontorie.ProG.View.pdb
+F:\ProG\ProG\Almontorie.ProG.ConsoleApp\obj\Debug\Almontorie.ProG.ConsoleApp.csprojResolveAssemblyReference.cache
+F:\ProG\ProG\Almontorie.ProG.ConsoleApp\obj\Debug\Almontorie.ProG.ConsoleApp.csproj.CoreCompileInputs.cache
+F:\ProG\ProG\Almontorie.ProG.ConsoleApp\obj\Debug\Almontorie.ProG.ConsoleApp.csproj.CopyComplete
+F:\ProG\ProG\Almontorie.ProG.ConsoleApp\obj\Debug\Almontorie.ProG.ConsoleApp.exe
+F:\ProG\ProG\Almontorie.ProG.ConsoleApp\obj\Debug\Almontorie.ProG.ConsoleApp.pdb
+H:\ProG\ProG\Almontorie.ProG.ConsoleApp\bin\Debug\Almontorie.ProG.ConsoleApp.exe.config
+H:\ProG\ProG\Almontorie.ProG.ConsoleApp\bin\Debug\Almontorie.ProG.ConsoleApp.exe
+H:\ProG\ProG\Almontorie.ProG.ConsoleApp\bin\Debug\Almontorie.ProG.ConsoleApp.pdb
+H:\ProG\ProG\Almontorie.ProG.ConsoleApp\bin\Debug\Almontorie.ProG.Controller.dll
+H:\ProG\ProG\Almontorie.ProG.ConsoleApp\bin\Debug\Almontorie.ProG.Model.dll
+H:\ProG\ProG\Almontorie.ProG.ConsoleApp\bin\Debug\Almontorie.ProG.View.dll
+H:\ProG\ProG\Almontorie.ProG.ConsoleApp\bin\Debug\Almontorie.ProG.Controller.pdb
+H:\ProG\ProG\Almontorie.ProG.ConsoleApp\bin\Debug\Almontorie.ProG.Model.pdb
+H:\ProG\ProG\Almontorie.ProG.ConsoleApp\bin\Debug\Almontorie.ProG.View.pdb
+H:\ProG\ProG\Almontorie.ProG.ConsoleApp\obj\Debug\Almontorie.ProG.ConsoleApp.csprojResolveAssemblyReference.cache
+H:\ProG\ProG\Almontorie.ProG.ConsoleApp\obj\Debug\Almontorie.ProG.ConsoleApp.csproj.CoreCompileInputs.cache
+H:\ProG\ProG\Almontorie.ProG.ConsoleApp\obj\Debug\Almontorie.ProG.ConsoleApp.csproj.CopyComplete
+H:\ProG\ProG\Almontorie.ProG.ConsoleApp\obj\Debug\Almontorie.ProG.ConsoleApp.exe
+H:\ProG\ProG\Almontorie.ProG.ConsoleApp\obj\Debug\Almontorie.ProG.ConsoleApp.pdb
+C:\Users\lucas\Desktop\IUT\Coo\ProG\ProG\Almontorie.ProG.ConsoleApp\bin\Debug\Almontorie.ProG.ConsoleApp.exe.config
+C:\Users\lucas\Desktop\IUT\Coo\ProG\ProG\Almontorie.ProG.ConsoleApp\bin\Debug\Almontorie.ProG.ConsoleApp.exe
+C:\Users\lucas\Desktop\IUT\Coo\ProG\ProG\Almontorie.ProG.ConsoleApp\bin\Debug\Almontorie.ProG.ConsoleApp.pdb
+C:\Users\lucas\Desktop\IUT\Coo\ProG\ProG\Almontorie.ProG.ConsoleApp\bin\Debug\Almontorie.ProG.Controller.dll
+C:\Users\lucas\Desktop\IUT\Coo\ProG\ProG\Almontorie.ProG.ConsoleApp\bin\Debug\Almontorie.ProG.Model.dll
+C:\Users\lucas\Desktop\IUT\Coo\ProG\ProG\Almontorie.ProG.ConsoleApp\bin\Debug\Almontorie.ProG.View.dll
+C:\Users\lucas\Desktop\IUT\Coo\ProG\ProG\Almontorie.ProG.ConsoleApp\bin\Debug\Almontorie.ProG.Controller.pdb
+C:\Users\lucas\Desktop\IUT\Coo\ProG\ProG\Almontorie.ProG.ConsoleApp\bin\Debug\Almontorie.ProG.Model.pdb
+C:\Users\lucas\Desktop\IUT\Coo\ProG\ProG\Almontorie.ProG.ConsoleApp\bin\Debug\Almontorie.ProG.View.pdb
+C:\Users\lucas\Desktop\IUT\Coo\ProG\ProG\Almontorie.ProG.ConsoleApp\obj\Debug\Almontorie.ProG.ConsoleApp.csprojResolveAssemblyReference.cache
+C:\Users\lucas\Desktop\IUT\Coo\ProG\ProG\Almontorie.ProG.ConsoleApp\obj\Debug\Almontorie.ProG.ConsoleApp.csproj.CoreCompileInputs.cache
+C:\Users\lucas\Desktop\IUT\Coo\ProG\ProG\Almontorie.ProG.ConsoleApp\obj\Debug\Almontorie.ProG.ConsoleApp.csproj.CopyComplete
+C:\Users\lucas\Desktop\IUT\Coo\ProG\ProG\Almontorie.ProG.ConsoleApp\obj\Debug\Almontorie.ProG.ConsoleApp.exe
+C:\Users\lucas\Desktop\IUT\Coo\ProG\ProG\Almontorie.ProG.ConsoleApp\obj\Debug\Almontorie.ProG.ConsoleApp.pdb
+E:\ProG\ProG\Almontorie.ProG.ConsoleApp\bin\Debug\Almontorie.ProG.ConsoleApp.exe.config
+E:\ProG\ProG\Almontorie.ProG.ConsoleApp\obj\Debug\Almontorie.ProG.ConsoleApp.exe
+E:\ProG\ProG\Almontorie.ProG.ConsoleApp\obj\Debug\Almontorie.ProG.ConsoleApp.pdb
