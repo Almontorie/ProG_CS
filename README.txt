@@ -9,5 +9,7 @@ A faire !!!!!
 
 Attention !!!!!!!! 
 
--- Si on ajoute un album avec une date de sortie == a un album  existant ====> un album sera créer.
-   ----> de même pour un artiste avec la date de naissance
+-- Si on ajoute un album avec une date de sortie == a un album  existant ====> un album sera crÃ©er.
+   ----> de mÃªme pour un artiste avec la date de naissance
+
+Ceci est un test
