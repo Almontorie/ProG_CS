@@ -71,3 +71,15 @@ C:\Users\lucas\Desktop\IUT\Coo\ProG\ProG\Almontorie.ProG.ConsoleApp\obj\Debug\Al
 E:\ProG\ProG\Almontorie.ProG.ConsoleApp\bin\Debug\Almontorie.ProG.ConsoleApp.exe.config
 E:\ProG\ProG\Almontorie.ProG.ConsoleApp\obj\Debug\Almontorie.ProG.ConsoleApp.exe
 E:\ProG\ProG\Almontorie.ProG.ConsoleApp\obj\Debug\Almontorie.ProG.ConsoleApp.pdb
+U:\coo\ProG C#\ProG\Almontorie.ProG.ConsoleApp\bin\Debug\Almontorie.ProG.ConsoleApp.exe.config
+U:\coo\ProG C#\ProG\Almontorie.ProG.ConsoleApp\obj\Debug\Almontorie.ProG.ConsoleApp.exe
+U:\coo\ProG C#\ProG\Almontorie.ProG.ConsoleApp\obj\Debug\Almontorie.ProG.ConsoleApp.pdb
+U:\coo\ProG C#\ProG\Almontorie.ProG.ConsoleApp\bin\Debug\Almontorie.ProG.ConsoleApp.exe
+U:\coo\ProG C#\ProG\Almontorie.ProG.ConsoleApp\bin\Debug\Almontorie.ProG.ConsoleApp.pdb
+U:\coo\ProG C#\ProG\Almontorie.ProG.ConsoleApp\bin\Debug\Almontorie.ProG.Controller.dll
+U:\coo\ProG C#\ProG\Almontorie.ProG.ConsoleApp\bin\Debug\Almontorie.ProG.Model.dll
+U:\coo\ProG C#\ProG\Almontorie.ProG.ConsoleApp\bin\Debug\Almontorie.ProG.View.dll
+U:\coo\ProG C#\ProG\Almontorie.ProG.ConsoleApp\bin\Debug\Almontorie.ProG.Controller.pdb
+U:\coo\ProG C#\ProG\Almontorie.ProG.ConsoleApp\bin\Debug\Almontorie.ProG.Model.pdb
+U:\coo\ProG C#\ProG\Almontorie.ProG.ConsoleApp\bin\Debug\Almontorie.ProG.View.pdb
+U:\coo\ProG C#\ProG\Almontorie.ProG.ConsoleApp\obj\Debug\Almontorie.ProG.ConsoleApp.csprojResolveAssemblyReference.cache

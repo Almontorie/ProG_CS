@@ -32,3 +32,10 @@ C:\Users\lucas\Desktop\IUT\Coo\ProG\ProG\Almontorie.ProG.View\obj\Debug\Almontor
 C:\Users\lucas\Desktop\IUT\Coo\ProG\ProG\Almontorie.ProG.View\obj\Debug\Almontorie.ProG.View.csproj.CopyComplete
 C:\Users\lucas\Desktop\IUT\Coo\ProG\ProG\Almontorie.ProG.View\obj\Debug\Almontorie.ProG.View.dll
 C:\Users\lucas\Desktop\IUT\Coo\ProG\ProG\Almontorie.ProG.View\obj\Debug\Almontorie.ProG.View.pdb
+U:\coo\ProG C#\ProG\Almontorie.ProG.View\bin\Debug\Almontorie.ProG.View.dll
+U:\coo\ProG C#\ProG\Almontorie.ProG.View\bin\Debug\Almontorie.ProG.View.pdb
+U:\coo\ProG C#\ProG\Almontorie.ProG.View\bin\Debug\Almontorie.ProG.Model.dll
+U:\coo\ProG C#\ProG\Almontorie.ProG.View\bin\Debug\Almontorie.ProG.Model.pdb
+U:\coo\ProG C#\ProG\Almontorie.ProG.View\obj\Debug\Almontorie.ProG.View.csprojResolveAssemblyReference.cache
+U:\coo\ProG C#\ProG\Almontorie.ProG.View\obj\Debug\Almontorie.ProG.View.dll
+U:\coo\ProG C#\ProG\Almontorie.ProG.View\obj\Debug\Almontorie.ProG.View.pdb

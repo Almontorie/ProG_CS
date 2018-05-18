@@ -33,3 +33,8 @@ C:\Users\lucas\Desktop\IUT\Coo\ProG\ProG\Almontorie.ProG.Model\obj\Debug\Almonto
 C:\Users\lucas\Desktop\IUT\Coo\ProG\ProG\Almontorie.ProG.Model\obj\Debug\Almontorie.ProG.Model.csproj.CoreCompileInputs.cache
 C:\Users\lucas\Desktop\IUT\Coo\ProG\ProG\Almontorie.ProG.Model\obj\Debug\Almontorie.ProG.Model.dll
 C:\Users\lucas\Desktop\IUT\Coo\ProG\ProG\Almontorie.ProG.Model\obj\Debug\Almontorie.ProG.Model.pdb
+U:\coo\ProG C#\ProG\Almontorie.ProG.Model\bin\Debug\Almontorie.ProG.Model.dll
+U:\coo\ProG C#\ProG\Almontorie.ProG.Model\bin\Debug\Almontorie.ProG.Model.pdb
+U:\coo\ProG C#\ProG\Almontorie.ProG.Model\obj\Debug\Almontorie.ProG.Model.csprojResolveAssemblyReference.cache
+U:\coo\ProG C#\ProG\Almontorie.ProG.Model\obj\Debug\Almontorie.ProG.Model.dll
+U:\coo\ProG C#\ProG\Almontorie.ProG.Model\obj\Debug\Almontorie.ProG.Model.pdb
