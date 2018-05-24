@@ -1,18 +1,28 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Runtime.Serialization;
 using System.Text;
 using System.Threading.Tasks;
 
 namespace Almontorie.ProG.Model
 {
+    [DataContract (Name = "library")]
     public class Library 
     {
+        [DataMember(EmitDefaultValue = false)]
         public List<Song> ListSong { get; private set; }
+
+        [DataMember(EmitDefaultValue = false)]
         public List<Artist> ListArtist  { get; private set; }
+
+        [DataMember(EmitDefaultValue = false)]
         public List<Album> ListAlbum { get; private set; }
+
+        [DataMember(EmitDefaultValue = false)]
         public List<Playlist> ListPlaylist { get; private set; }
 
+        [DataMember(EmitDefaultValue = false)]
         public Time Length { get; private set; }
 
         public Library()

@@ -18,3 +18,14 @@ F:\ProG C#\Programmation\ProG\Almontorie.ProG.Servvice\obj\Debug\Almontorie.ProG
 F:\ProG C#\Programmation\ProG\Almontorie.ProG.Servvice\obj\Debug\Almontorie.ProG.Service.csproj.CopyComplete
 F:\ProG C#\Programmation\ProG\Almontorie.ProG.Servvice\obj\Debug\Almontorie.ProG.Service.dll
 F:\ProG C#\Programmation\ProG\Almontorie.ProG.Servvice\obj\Debug\Almontorie.ProG.Service.pdb
+E:\Documents\Mes documents\IUT\ProG C#\Programmation\ProG\Almontorie.ProG.Servvice\bin\Debug\Almontorie.ProG.Service.dll
+E:\Documents\Mes documents\IUT\ProG C#\Programmation\ProG\Almontorie.ProG.Servvice\bin\Debug\Almontorie.ProG.Service.pdb
+E:\Documents\Mes documents\IUT\ProG C#\Programmation\ProG\Almontorie.ProG.Servvice\bin\Debug\Almontorie.ProG.Model.dll
+E:\Documents\Mes documents\IUT\ProG C#\Programmation\ProG\Almontorie.ProG.Servvice\bin\Debug\Newtonsoft.Json.dll
+E:\Documents\Mes documents\IUT\ProG C#\Programmation\ProG\Almontorie.ProG.Servvice\bin\Debug\Almontorie.ProG.Model.pdb
+E:\Documents\Mes documents\IUT\ProG C#\Programmation\ProG\Almontorie.ProG.Servvice\bin\Debug\Newtonsoft.Json.xml
+E:\Documents\Mes documents\IUT\ProG C#\Programmation\ProG\Almontorie.ProG.Servvice\obj\Debug\Almontorie.ProG.Service.csprojResolveAssemblyReference.cache
+E:\Documents\Mes documents\IUT\ProG C#\Programmation\ProG\Almontorie.ProG.Servvice\obj\Debug\Almontorie.ProG.Service.csproj.CoreCompileInputs.cache
+E:\Documents\Mes documents\IUT\ProG C#\Programmation\ProG\Almontorie.ProG.Servvice\obj\Debug\Almontorie.ProG.Service.csproj.CopyComplete
+E:\Documents\Mes documents\IUT\ProG C#\Programmation\ProG\Almontorie.ProG.Servvice\obj\Debug\Almontorie.ProG.Service.dll
+E:\Documents\Mes documents\IUT\ProG C#\Programmation\ProG\Almontorie.ProG.Servvice\obj\Debug\Almontorie.ProG.Service.pdb

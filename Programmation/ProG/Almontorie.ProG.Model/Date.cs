@@ -3,13 +3,21 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Runtime.Serialization;
 
 namespace Almontorie.ProG.Model
 {
+
+    [DataContract (Name = "date")]
     public class Date
     {
+        [DataMember]
         public int Day { get; protected set; }
+
+        [DataMember]
         public int Month { get; protected set; }
+
+        [DataMember]
         public int Year { get; protected set; }
         
         public Date(int Day, int Month, int Year)

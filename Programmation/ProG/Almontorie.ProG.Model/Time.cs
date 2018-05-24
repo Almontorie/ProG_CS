@@ -3,13 +3,21 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Runtime.Serialization;
 
 namespace Almontorie.ProG.Model
 {
+    [DataContract (Name = "time")]
     public class Time : Date   
     {
+
+        [DataMember]
         public int Hour { get; private set; }
+
+        [DataMember]
         public int Min { get; private set; }
+
+        [DataMember]
         public int Second { get; private set; }
 
         public Time(int Hour, int Min, int Second) :base() 

@@ -3,14 +3,23 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Runtime.Serialization;
 
 namespace Almontorie.ProG.Model
 {
+    [DataContract (Name = "song")]
     public class Song 
     {
+        [DataMember]
         public string Name { get; private set; }
+
+        [DataMember]
         public Artist Artist { get; private set; }
+
+        [DataMember]
         public Time Length { get; private set; }
+
+        [DataMember]
         public Album Album { get; private set; }
 
         public Song(string name, Artist artist, Time length, Album album)

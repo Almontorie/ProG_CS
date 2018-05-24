@@ -3,17 +3,29 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Runtime.Serialization;
 
 namespace Almontorie.ProG.Model
 {
+    [DataContract (Name = "album")]
     public class Album 
     {
+        [DataMember]
         public String Name { get; private set; }
+
+        [DataMember]
         public Artist Artist { get; private set; }
+
+        [DataMember]
         public Date ReleaseDate { get; private set; }
+
+        [DataMember]
         public Time Length { get; private set; }
 
+        [DataMember (EmitDefaultValue = false)]
         public List<Song> ListSong { get; private set; }
+
+
         public Album(string Name, Artist Artist, Date ReleaseDate)
         {
             if(Name == null || Artist == null || ReleaseDate == null)

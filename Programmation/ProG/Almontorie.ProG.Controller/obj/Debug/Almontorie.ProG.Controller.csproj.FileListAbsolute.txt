@@ -57,3 +57,18 @@ F:\ProG C#\Programmation\ProG\Almontorie.ProG.Controller\obj\Debug\Almontorie.Pr
 F:\ProG C#\Programmation\ProG\Almontorie.ProG.Controller\obj\Debug\Almontorie.ProG.Controller.csproj.CopyComplete
 F:\ProG C#\Programmation\ProG\Almontorie.ProG.Controller\obj\Debug\Almontorie.ProG.Controller.dll
 F:\ProG C#\Programmation\ProG\Almontorie.ProG.Controller\obj\Debug\Almontorie.ProG.Controller.pdb
+E:\Documents\Mes documents\IUT\ProG C#\Programmation\ProG\Almontorie.ProG.Controller\bin\Debug\Almontorie.ProG.Controller.dll
+E:\Documents\Mes documents\IUT\ProG C#\Programmation\ProG\Almontorie.ProG.Controller\bin\Debug\Almontorie.ProG.Controller.pdb
+E:\Documents\Mes documents\IUT\ProG C#\Programmation\ProG\Almontorie.ProG.Controller\bin\Debug\Almontorie.ProG.Model.dll
+E:\Documents\Mes documents\IUT\ProG C#\Programmation\ProG\Almontorie.ProG.Controller\bin\Debug\Almontorie.ProG.Service.dll
+E:\Documents\Mes documents\IUT\ProG C#\Programmation\ProG\Almontorie.ProG.Controller\bin\Debug\Almontorie.ProG.View.dll
+E:\Documents\Mes documents\IUT\ProG C#\Programmation\ProG\Almontorie.ProG.Controller\bin\Debug\Newtonsoft.Json.dll
+E:\Documents\Mes documents\IUT\ProG C#\Programmation\ProG\Almontorie.ProG.Controller\bin\Debug\Almontorie.ProG.Model.pdb
+E:\Documents\Mes documents\IUT\ProG C#\Programmation\ProG\Almontorie.ProG.Controller\bin\Debug\Almontorie.ProG.Service.pdb
+E:\Documents\Mes documents\IUT\ProG C#\Programmation\ProG\Almontorie.ProG.Controller\bin\Debug\Almontorie.ProG.View.pdb
+E:\Documents\Mes documents\IUT\ProG C#\Programmation\ProG\Almontorie.ProG.Controller\bin\Debug\Newtonsoft.Json.xml
+E:\Documents\Mes documents\IUT\ProG C#\Programmation\ProG\Almontorie.ProG.Controller\obj\Debug\Almontorie.ProG.Controller.csprojResolveAssemblyReference.cache
+E:\Documents\Mes documents\IUT\ProG C#\Programmation\ProG\Almontorie.ProG.Controller\obj\Debug\Almontorie.ProG.Controller.csproj.CoreCompileInputs.cache
+E:\Documents\Mes documents\IUT\ProG C#\Programmation\ProG\Almontorie.ProG.Controller\obj\Debug\Almontorie.ProG.Controller.csproj.CopyComplete
+E:\Documents\Mes documents\IUT\ProG C#\Programmation\ProG\Almontorie.ProG.Controller\obj\Debug\Almontorie.ProG.Controller.dll
+E:\Documents\Mes documents\IUT\ProG C#\Programmation\ProG\Almontorie.ProG.Controller\obj\Debug\Almontorie.ProG.Controller.pdb
