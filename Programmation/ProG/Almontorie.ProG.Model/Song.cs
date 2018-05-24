@@ -7,7 +7,7 @@ using System.Runtime.Serialization;
 
 namespace Almontorie.ProG.Model
 {
-    [DataContract (Name = "song")]
+    [DataContract(IsReference = true, Name = "song")]
     public class Song 
     {
         [DataMember]

@@ -10,7 +10,7 @@ using System.Runtime.Serialization;
 namespace Almontorie.ProG.Model
 {
 
-    [DataContract (Name = "artist")]
+    [DataContract (IsReference = true, Name = "artist")]
     public class Artist 
     {
 

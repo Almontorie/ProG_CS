@@ -22,7 +22,7 @@ namespace Almontorie.ProG.Controller
         {
             Library library = new Library();
 
-            IService serv = new JsonService();
+            IService serv = new XmlService();
             library = serv.LoadLibrary();
             
 

@@ -56,3 +56,8 @@ E:\Documents\Mes documents\IUT\ProG C#\Programmation\ProG\Almontorie.ProG.Model\
 E:\Documents\Mes documents\IUT\ProG C#\Programmation\ProG\Almontorie.ProG.Model\obj\Debug\Almontorie.ProG.Model.csproj.CoreCompileInputs.cache
 E:\Documents\Mes documents\IUT\ProG C#\Programmation\ProG\Almontorie.ProG.Model\obj\Debug\Almontorie.ProG.Model.dll
 E:\Documents\Mes documents\IUT\ProG C#\Programmation\ProG\Almontorie.ProG.Model\obj\Debug\Almontorie.ProG.Model.pdb
+E:\Documents\Mes documents\IUT\ProG C#\Programmation\ProG\Almontorie.ProG.Model\bin\Debug\Almontorie.ProG.Model.dll
+E:\Documents\Mes documents\IUT\ProG C#\Programmation\ProG\Almontorie.ProG.Model\bin\Debug\Almontorie.ProG.Model.pdb
+E:\Documents\Mes documents\IUT\ProG C#\Programmation\ProG\Almontorie.ProG.Model\bin\Debug\Newtonsoft.Json.dll
+E:\Documents\Mes documents\IUT\ProG C#\Programmation\ProG\Almontorie.ProG.Model\bin\Debug\Newtonsoft.Json.xml
+E:\Documents\Mes documents\IUT\ProG C#\Programmation\ProG\Almontorie.ProG.Model\obj\Debug\Almontorie.ProG.Model.csproj.CopyComplete
