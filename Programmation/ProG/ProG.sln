@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
-VisualStudioVersion = 14.0.24720.0
+VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Almontorie.ProG.ConsoleApp", "Almontorie.ProG.ConsoleApp\Almontorie.ProG.ConsoleApp.csproj", "{921A5062-92DB-4E4E-B255-220065CE3950}"
 EndProject
@@ -12,6 +12,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Almontorie.ProG.Controller", "Almontorie.ProG.Controller\Almontorie.ProG.Controller.csproj", "{4EFF65CD-FE82-43A2-96F7-C8F28941ECB9}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Almontorie.ProG.WinApp", "Almontorie.ProG.WinApp\Almontorie.ProG.WinApp.csproj", "{E36FC25B-9F68-4F46-BDC9-E22E5B2C1EEC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Almontorie.ProG.Service", "Almontorie.ProG.Servvice\Almontorie.ProG.Service.csproj", "{17CD3816-F78B-4551-AF6C-AE9DA78A40A6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{E36FC25B-9F68-4F46-BDC9-E22E5B2C1EEC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E36FC25B-9F68-4F46-BDC9-E22E5B2C1EEC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E36FC25B-9F68-4F46-BDC9-E22E5B2C1EEC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{17CD3816-F78B-4551-AF6C-AE9DA78A40A6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{17CD3816-F78B-4551-AF6C-AE9DA78A40A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{17CD3816-F78B-4551-AF6C-AE9DA78A40A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{17CD3816-F78B-4551-AF6C-AE9DA78A40A6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

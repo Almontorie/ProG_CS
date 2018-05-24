@@ -5,6 +5,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Almontorie.ProG.Service;
 
 namespace Almontorie.ProG.Controller
 {
@@ -20,6 +21,10 @@ namespace Almontorie.ProG.Controller
         public void Menu()
         {
             Library library = new Library();
+
+            IService serv = new JsonService();
+            library = serv.LoadLibrary();
+            
 
             bool exit = false;
 
@@ -187,6 +192,8 @@ namespace Almontorie.ProG.Controller
                 }
 
             } while (!exit);
-        } 
+            serv.SaveLibrary(library);
+        }
+        
     }
 }

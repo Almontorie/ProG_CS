@@ -38,3 +38,17 @@ U:\coo\ProG C#\ProG\Almontorie.ProG.Model\bin\Debug\Almontorie.ProG.Model.pdb
 U:\coo\ProG C#\ProG\Almontorie.ProG.Model\obj\Debug\Almontorie.ProG.Model.csprojResolveAssemblyReference.cache
 U:\coo\ProG C#\ProG\Almontorie.ProG.Model\obj\Debug\Almontorie.ProG.Model.dll
 U:\coo\ProG C#\ProG\Almontorie.ProG.Model\obj\Debug\Almontorie.ProG.Model.pdb
+U:\coo\ProG C#\Programmation\ProG\Almontorie.ProG.Model\bin\Debug\Almontorie.ProG.Model.dll
+U:\coo\ProG C#\Programmation\ProG\Almontorie.ProG.Model\bin\Debug\Almontorie.ProG.Model.pdb
+U:\coo\ProG C#\Programmation\ProG\Almontorie.ProG.Model\obj\Debug\Almontorie.ProG.Model.csprojResolveAssemblyReference.cache
+U:\coo\ProG C#\Programmation\ProG\Almontorie.ProG.Model\obj\Debug\Almontorie.ProG.Model.dll
+U:\coo\ProG C#\Programmation\ProG\Almontorie.ProG.Model\obj\Debug\Almontorie.ProG.Model.pdb
+F:\ProG C#\Programmation\ProG\Almontorie.ProG.Model\bin\Debug\Almontorie.ProG.Model.dll
+F:\ProG C#\Programmation\ProG\Almontorie.ProG.Model\bin\Debug\Almontorie.ProG.Model.pdb
+F:\ProG C#\Programmation\ProG\Almontorie.ProG.Model\bin\Debug\Newtonsoft.Json.dll
+F:\ProG C#\Programmation\ProG\Almontorie.ProG.Model\bin\Debug\Newtonsoft.Json.xml
+F:\ProG C#\Programmation\ProG\Almontorie.ProG.Model\obj\Debug\Almontorie.ProG.Model.csprojResolveAssemblyReference.cache
+F:\ProG C#\Programmation\ProG\Almontorie.ProG.Model\obj\Debug\Almontorie.ProG.Model.csproj.CoreCompileInputs.cache
+F:\ProG C#\Programmation\ProG\Almontorie.ProG.Model\obj\Debug\Almontorie.ProG.Model.csproj.CopyComplete
+F:\ProG C#\Programmation\ProG\Almontorie.ProG.Model\obj\Debug\Almontorie.ProG.Model.dll
+F:\ProG C#\Programmation\ProG\Almontorie.ProG.Model\obj\Debug\Almontorie.ProG.Model.pdb

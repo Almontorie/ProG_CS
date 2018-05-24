@@ -110,6 +110,12 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Almontorie.ProG.Model\Almontorie.ProG.Model.csproj">
+      <Project>{d143383d-7a81-4251-9b4b-6fb9e1f405bc}</Project>
+      <Name>Almontorie.ProG.Model</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

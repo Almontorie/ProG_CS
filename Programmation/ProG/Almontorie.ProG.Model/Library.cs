@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Almontorie.ProG.Model
 {
-    public class Library
+    public class Library 
     {
         public List<Song> ListSong { get; private set; }
         public List<Artist> ListArtist  { get; private set; }

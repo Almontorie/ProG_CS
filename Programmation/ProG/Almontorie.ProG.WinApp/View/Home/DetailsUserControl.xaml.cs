@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Almontorie.ProG.Model;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -23,6 +24,10 @@ namespace Almontorie.ProG.WinApp.View.Home
         public DetailsUserControl()
         {
             InitializeComponent();
+
         }
+
+
+
     }
 }

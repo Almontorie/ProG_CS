@@ -48,6 +48,10 @@
       <Project>{d143383d-7a81-4251-9b4b-6fb9e1f405bc}</Project>
       <Name>Almontorie.ProG.Model</Name>
     </ProjectReference>
+    <ProjectReference Include="..\Almontorie.ProG.Servvice\Almontorie.ProG.Service.csproj">
+      <Project>{17cd3816-f78b-4551-af6c-ae9da78a40a6}</Project>
+      <Name>Almontorie.ProG.Service</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Almontorie.ProG.View\Almontorie.ProG.View.csproj">
       <Project>{ac1ef381-8874-4363-97d8-31459f3e07f9}</Project>
       <Name>Almontorie.ProG.View</Name>
