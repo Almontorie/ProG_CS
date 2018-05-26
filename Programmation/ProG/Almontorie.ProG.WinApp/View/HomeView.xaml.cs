@@ -26,6 +26,8 @@ namespace Almontorie.ProG.WinApp.View
         public Library MyLibrary { get; set; }
 
         public Song MySong { get; set; }
+
+
         public HomeView()
         {
             InitializeComponent();
@@ -38,5 +40,6 @@ namespace Almontorie.ProG.WinApp.View
 
 
         }
+
     }
 }

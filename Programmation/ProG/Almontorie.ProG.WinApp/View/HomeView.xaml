@@ -16,7 +16,7 @@
         </Grid.ColumnDefinitions>
 
 
-        <Home:DetailsUserControl Song="{Binding MySong}" Grid.Column="1"/>
+        <Home:DetailsUserControl Song="{Binding MySong}" Library="{Binding MyLibrary}" Grid.Column="1"/>
         <Home:SongsUserControl Library="{Binding MyLibrary}" Grid.Column="0"/>
 
     </Grid>

@@ -65,3 +65,32 @@ U:\coo\ProG C#\ProG_CS-master\Programmation\ProG\Almontorie.ProG.WinApp\obj\Debu
 U:\coo\ProG C#\ProG_CS-master\Programmation\ProG\Almontorie.ProG.WinApp\obj\Debug\Almontorie.ProG.WinApp.csproj.GenerateResource.Cache
 U:\coo\ProG C#\ProG_CS-master\Programmation\ProG\Almontorie.ProG.WinApp\obj\Debug\View\Home\SongsUserControl.g.cs
 U:\coo\ProG C#\ProG_CS-master\Programmation\ProG\Almontorie.ProG.WinApp\obj\Debug\View\Home\SongsUserControl.baml
+E:\Documents\Mes documents\IUT\ProG C#\Programmation\ProG\Almontorie.ProG.WinApp\bin\Debug\Almontorie.ProG.WinApp.exe.config
+E:\Documents\Mes documents\IUT\ProG C#\Programmation\ProG\Almontorie.ProG.WinApp\bin\Debug\Almontorie.ProG.WinApp.exe
+E:\Documents\Mes documents\IUT\ProG C#\Programmation\ProG\Almontorie.ProG.WinApp\bin\Debug\Almontorie.ProG.WinApp.pdb
+E:\Documents\Mes documents\IUT\ProG C#\Programmation\ProG\Almontorie.ProG.WinApp\bin\Debug\Almontorie.ProG.Model.dll
+E:\Documents\Mes documents\IUT\ProG C#\Programmation\ProG\Almontorie.ProG.WinApp\bin\Debug\Almontorie.ProG.Service.dll
+E:\Documents\Mes documents\IUT\ProG C#\Programmation\ProG\Almontorie.ProG.WinApp\bin\Debug\Newtonsoft.Json.dll
+E:\Documents\Mes documents\IUT\ProG C#\Programmation\ProG\Almontorie.ProG.WinApp\bin\Debug\Almontorie.ProG.Model.pdb
+E:\Documents\Mes documents\IUT\ProG C#\Programmation\ProG\Almontorie.ProG.WinApp\bin\Debug\Almontorie.ProG.Service.pdb
+E:\Documents\Mes documents\IUT\ProG C#\Programmation\ProG\Almontorie.ProG.WinApp\bin\Debug\Newtonsoft.Json.xml
+E:\Documents\Mes documents\IUT\ProG C#\Programmation\ProG\Almontorie.ProG.WinApp\obj\Debug\Almontorie.ProG.WinApp.csprojResolveAssemblyReference.cache
+E:\Documents\Mes documents\IUT\ProG C#\Programmation\ProG\Almontorie.ProG.WinApp\obj\Debug\View\HomeView.g.cs
+E:\Documents\Mes documents\IUT\ProG C#\Programmation\ProG\Almontorie.ProG.WinApp\obj\Debug\View\Home\DetailsUserControl.g.cs
+E:\Documents\Mes documents\IUT\ProG C#\Programmation\ProG\Almontorie.ProG.WinApp\obj\Debug\View\Home\MasterUserControl.g.cs
+E:\Documents\Mes documents\IUT\ProG C#\Programmation\ProG\Almontorie.ProG.WinApp\obj\Debug\View\Home\SongsUserControl.g.cs
+E:\Documents\Mes documents\IUT\ProG C#\Programmation\ProG\Almontorie.ProG.WinApp\obj\Debug\App.g.cs
+E:\Documents\Mes documents\IUT\ProG C#\Programmation\ProG\Almontorie.ProG.WinApp\obj\Debug\GeneratedInternalTypeHelper.g.cs
+E:\Documents\Mes documents\IUT\ProG C#\Programmation\ProG\Almontorie.ProG.WinApp\obj\Debug\Almontorie.ProG.WinApp_MarkupCompile.cache
+E:\Documents\Mes documents\IUT\ProG C#\Programmation\ProG\Almontorie.ProG.WinApp\obj\Debug\Almontorie.ProG.WinApp_MarkupCompile.lref
+E:\Documents\Mes documents\IUT\ProG C#\Programmation\ProG\Almontorie.ProG.WinApp\obj\Debug\View\HomeView.baml
+E:\Documents\Mes documents\IUT\ProG C#\Programmation\ProG\Almontorie.ProG.WinApp\obj\Debug\View\Home\DetailsUserControl.baml
+E:\Documents\Mes documents\IUT\ProG C#\Programmation\ProG\Almontorie.ProG.WinApp\obj\Debug\View\Home\MasterUserControl.baml
+E:\Documents\Mes documents\IUT\ProG C#\Programmation\ProG\Almontorie.ProG.WinApp\obj\Debug\View\Home\SongsUserControl.baml
+E:\Documents\Mes documents\IUT\ProG C#\Programmation\ProG\Almontorie.ProG.WinApp\obj\Debug\Almontorie.ProG.WinApp.g.resources
+E:\Documents\Mes documents\IUT\ProG C#\Programmation\ProG\Almontorie.ProG.WinApp\obj\Debug\Almontorie.ProG.WinApp.Properties.Resources.resources
+E:\Documents\Mes documents\IUT\ProG C#\Programmation\ProG\Almontorie.ProG.WinApp\obj\Debug\Almontorie.ProG.WinApp.csproj.GenerateResource.cache
+E:\Documents\Mes documents\IUT\ProG C#\Programmation\ProG\Almontorie.ProG.WinApp\obj\Debug\Almontorie.ProG.WinApp.csproj.CoreCompileInputs.cache
+E:\Documents\Mes documents\IUT\ProG C#\Programmation\ProG\Almontorie.ProG.WinApp\obj\Debug\Almontorie.ProG.WinApp.csproj.CopyComplete
+E:\Documents\Mes documents\IUT\ProG C#\Programmation\ProG\Almontorie.ProG.WinApp\obj\Debug\Almontorie.ProG.WinApp.exe
+E:\Documents\Mes documents\IUT\ProG C#\Programmation\ProG\Almontorie.ProG.WinApp\obj\Debug\Almontorie.ProG.WinApp.pdb

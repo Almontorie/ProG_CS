@@ -66,6 +66,9 @@ namespace Almontorie.ProG.Model
                 int i;
                 i = ListAlbum.IndexOf(Track.Album);
                 ListAlbum[i].DeleteSong(Track);
+
+                if (ListAlbum[i].ListSong.Count() == 0)
+                    DeleteAlbum(ListAlbum[i]);
             }
 
             foreach (var playlist in ListPlaylist)

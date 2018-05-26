@@ -8,8 +8,8 @@
              mc:Ignorable="d" 
              x:Name="root"
              d:DesignHeight="300" d:DesignWidth="300">
-    <Grid x:Name="MainGrid"> 
-        
+    <Grid x:Name="MainGrid">
+
         <Grid.ColumnDefinitions>
             <ColumnDefinition/>
             <ColumnDefinition/>
@@ -31,9 +31,17 @@
         <TextBlock Text="Album :" Grid.Row="3"/>
         <TextBlock Text="Date de sortie :" Grid.Row="4"/>
         <TextBlock Text="Durée :" Grid.Row="5"/>
-        
-        
-        
+        <TextBlock Text="{Binding Song.Name, ElementName=root}" Grid.Row="0" Grid.Column="1"/>
+        <TextBlock Text="{Binding Song.Artist.Name, ElementName=root}" Grid.Row="1" Grid.Column="1"/>
+        <TextBlock Text="{Binding Song.Artist.Birthday, ElementName=root}" Grid.Row="2" Grid.Column="1"/>
+        <TextBlock Text="{Binding Song.Album.Name, ElementName=root}" Grid.Row="3" Grid.Column="1"/>
+        <TextBlock Text="{Binding Song.Album.ReleaseDate, ElementName=root}" Grid.Row="4" Grid.Column="1"/>
+        <TextBlock Text="{Binding Song.Length, ElementName=root}" Grid.Row="5" Grid.Column="1"/>
+
+        <Button Name="mButtonDelete" Content="Supprimer" Click="mButtonDelete_Click" Grid.Row="6" Grid.ColumnSpan="2"/>
+
+
+
 
     </Grid>
 </UserControl>
