@@ -1,6 +1,0 @@
-E:\Documents\Mes documents\IUT\coo\ProG\ProG\Almontorie.ProG.Control\bin\Debug\Almontorie.ProG.Control.dll
-E:\Documents\Mes documents\IUT\coo\ProG\ProG\Almontorie.ProG.Control\bin\Debug\Almontorie.ProG.Control.pdb
-E:\Documents\Mes documents\IUT\coo\ProG\ProG\Almontorie.ProG.Control\obj\Debug\Almontorie.ProG.Control.csprojResolveAssemblyReference.cache
-E:\Documents\Mes documents\IUT\coo\ProG\ProG\Almontorie.ProG.Control\obj\Debug\Almontorie.ProG.Control.csproj.CoreCompileInputs.cache
-E:\Documents\Mes documents\IUT\coo\ProG\ProG\Almontorie.ProG.Control\obj\Debug\Almontorie.ProG.Control.dll
-E:\Documents\Mes documents\IUT\coo\ProG\ProG\Almontorie.ProG.Control\obj\Debug\Almontorie.ProG.Control.pdb
