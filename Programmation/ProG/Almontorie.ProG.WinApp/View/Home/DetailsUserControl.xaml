@@ -8,8 +8,32 @@
              mc:Ignorable="d" 
              x:Name="root"
              d:DesignHeight="300" d:DesignWidth="300">
-    <Grid x:Name="MainGrid">
+    <Grid x:Name="MainGrid"> 
+        
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
 
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+
+        <TextBlock Text="Nom :" Grid.Row="0"/>
+        <TextBlock Text="Artiste :" Grid.Row="1"/>
+        <TextBlock Text="Date de naissance :" Grid.Row="2"/>
+        <TextBlock Text="Album :" Grid.Row="3"/>
+        <TextBlock Text="Date de sortie :" Grid.Row="4"/>
+        <TextBlock Text="Durée :" Grid.Row="5"/>
+        
+        
+        
 
     </Grid>
 </UserControl>

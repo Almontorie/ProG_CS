@@ -25,7 +25,7 @@ namespace Almontorie.ProG.Service
                 {
                     myLibrary = serializer.ReadObject(s) as Library;
                 }
-        }
+            }
             catch (Exception)
             {
                 return new Library();

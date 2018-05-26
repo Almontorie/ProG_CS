@@ -12,6 +12,7 @@ using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
+using Almontorie.ProG.Service;
 
 namespace Almontorie.ProG.WinApp.View
 {
@@ -20,13 +21,21 @@ namespace Almontorie.ProG.WinApp.View
     /// </summary>
     public partial class HomeView : Window
     {
+        private readonly IService _serv;
+
+        public Library MyLibrary { get; set; }
+
+        public Song MySong { get; set; }
         public HomeView()
         {
             InitializeComponent();
+            DataContext = this;
+            _serv = new XmlService();
 
-            
+            MyLibrary = _serv.LoadLibrary();
 
-            
+            MySong = MyLibrary.ListSong[0];
+
 
         }
     }

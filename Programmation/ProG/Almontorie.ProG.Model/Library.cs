@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 namespace Almontorie.ProG.Model
 {
     [DataContract (Name = "library")]
-    public class Library 
+    public class Library
     {
         [DataMember(EmitDefaultValue = false)]
         public List<Song> ListSong { get; private set; }

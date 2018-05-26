@@ -68,6 +68,9 @@
     <Compile Include="View\Home\MasterUserControl.xaml.cs">
       <DependentUpon>MasterUserControl.xaml</DependentUpon>
     </Compile>
+    <Compile Include="View\Home\SongsUserControl.xaml.cs">
+      <DependentUpon>SongsUserControl.xaml</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs">
@@ -109,11 +112,19 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="View\Home\SongsUserControl.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Almontorie.ProG.Model\Almontorie.ProG.Model.csproj">
       <Project>{d143383d-7a81-4251-9b4b-6fb9e1f405bc}</Project>
       <Name>Almontorie.ProG.Model</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Almontorie.ProG.Servvice\Almontorie.ProG.Service.csproj">
+      <Project>{17cd3816-f78b-4551-af6c-ae9da78a40a6}</Project>
+      <Name>Almontorie.ProG.Service</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

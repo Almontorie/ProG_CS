@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Almontorie.ProG.WinApp.View"
         xmlns:Home="clr-namespace:Almontorie.ProG.WinApp.View.Home" x:Class="Almontorie.ProG.WinApp.View.HomeView"
-        mc:Ignorable="d"
+        mc:Ignorable="d" 
         Title="HomeView" Height="379.882" Width="520.118">
 
 
@@ -15,8 +15,9 @@
             <ColumnDefinition Width="7*"/>
         </Grid.ColumnDefinitions>
 
-        <Home:DetailsUserControl Grid.Column="1"/>
-        <Home:MasterUserControl Grid.Column="0"/>
+
+        <Home:DetailsUserControl Song="{Binding MySong}" Grid.Column="1"/>
+        <Home:SongsUserControl Library="{Binding MyLibrary}" Grid.Column="0"/>
 
     </Grid>
 </Window>

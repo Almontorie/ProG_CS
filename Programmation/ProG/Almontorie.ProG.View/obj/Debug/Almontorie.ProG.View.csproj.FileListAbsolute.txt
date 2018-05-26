@@ -64,3 +64,10 @@ E:\Documents\Mes documents\IUT\ProG C#\Programmation\ProG\Almontorie.ProG.View\o
 E:\Documents\Mes documents\IUT\ProG C#\Programmation\ProG\Almontorie.ProG.View\obj\Debug\Almontorie.ProG.View.csproj.CopyComplete
 E:\Documents\Mes documents\IUT\ProG C#\Programmation\ProG\Almontorie.ProG.View\obj\Debug\Almontorie.ProG.View.dll
 E:\Documents\Mes documents\IUT\ProG C#\Programmation\ProG\Almontorie.ProG.View\obj\Debug\Almontorie.ProG.View.pdb
+U:\coo\ProG C#\ProG_CS-master\Programmation\ProG\Almontorie.ProG.View\bin\Debug\Almontorie.ProG.View.dll
+U:\coo\ProG C#\ProG_CS-master\Programmation\ProG\Almontorie.ProG.View\bin\Debug\Almontorie.ProG.View.pdb
+U:\coo\ProG C#\ProG_CS-master\Programmation\ProG\Almontorie.ProG.View\bin\Debug\Almontorie.ProG.Model.dll
+U:\coo\ProG C#\ProG_CS-master\Programmation\ProG\Almontorie.ProG.View\bin\Debug\Almontorie.ProG.Model.pdb
+U:\coo\ProG C#\ProG_CS-master\Programmation\ProG\Almontorie.ProG.View\obj\Debug\Almontorie.ProG.View.csprojResolveAssemblyReference.cache
+U:\coo\ProG C#\ProG_CS-master\Programmation\ProG\Almontorie.ProG.View\obj\Debug\Almontorie.ProG.View.dll
+U:\coo\ProG C#\ProG_CS-master\Programmation\ProG\Almontorie.ProG.View\obj\Debug\Almontorie.ProG.View.pdb
