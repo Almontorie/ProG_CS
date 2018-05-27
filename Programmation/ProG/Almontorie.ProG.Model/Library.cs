@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Collections.ObjectModel;
 using System.Linq;
 using System.Runtime.Serialization;
 using System.Text;
@@ -11,7 +12,7 @@ namespace Almontorie.ProG.Model
     public class Library
     {
         [DataMember(EmitDefaultValue = false)]
-        public List<Song> ListSong { get; private set; }
+        public ObservableCollection<Song> ListSong { get; private set; }
 
         [DataMember(EmitDefaultValue = false)]
         public List<Artist> ListArtist  { get; private set; }
@@ -27,7 +28,7 @@ namespace Almontorie.ProG.Model
 
         public Library()
         {
-            ListSong = new List<Song>();
+            ListSong = new ObservableCollection<Song>();
             ListArtist = new List<Artist>();
             ListAlbum = new List<Album>();
             ListPlaylist = new List<Playlist>();

@@ -61,7 +61,8 @@ namespace Almontorie.ProG.WinApp.View.Home
 
         private void mButtonDelete_Click(object sender, RoutedEventArgs e)
         {
-            Library.DeleteSong(Song);
+            if(Song != null)
+                Library.DeleteSong(Song);
         }
     }
 }

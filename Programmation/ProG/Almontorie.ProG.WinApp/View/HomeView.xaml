@@ -15,9 +15,9 @@
             <ColumnDefinition Width="7*"/>
         </Grid.ColumnDefinitions>
 
-
-        <Home:DetailsUserControl Song="{Binding MySong}" Library="{Binding MyLibrary}" Grid.Column="1"/>
-        <Home:SongsUserControl Library="{Binding MyLibrary}" Grid.Column="0"/>
+        <ListBox ItemsSource="{Binding MyLibrary.ListSong}" DisplayMemberPath="Name" SelectedItem="{Binding SelectedItem}"/>
+        <Home:DetailsUserControl Song="{Binding SelectedItem}" Library="{Binding MyLibrary}" Grid.Column="1"/>
+        <!--<Home:SongsUserControl Library="{Binding MyLibrary}" Grid.Column="0"/>-->
 
     </Grid>
 </Window>
