@@ -8,16 +8,30 @@
         mc:Ignorable="d" 
         Title="HomeView" Height="379.882" Width="520.118">
 
-
+    
     <Grid>
-        <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="3*"/>
-            <ColumnDefinition Width="7*"/>
-        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition Height="auto"/>
+        </Grid.RowDefinitions>
+        
+        <Grid Grid.Row="0">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="3*"/>
+                <ColumnDefinition Width="7*"/>
+            </Grid.ColumnDefinitions>
 
-        <ListBox ItemsSource="{Binding MyLibrary.ListSong}" DisplayMemberPath="Name" SelectedItem="{Binding SelectedItem}"/>
-        <Home:DetailsUserControl Song="{Binding SelectedItem}" Library="{Binding MyLibrary}" Grid.Column="1"/>
-        <!--<Home:SongsUserControl Library="{Binding MyLibrary}" Grid.Column="0"/>-->
+
+            <ListBox ItemsSource="{Binding MyLibrary.ListSong}" DisplayMemberPath="Name" SelectedItem="{Binding SelectedItem}"/>
+            <Home:DetailsUserControl Song="{Binding SelectedItem}" Library="{Binding MyLibrary}" Grid.Column="1"/>
+            <!--<Home:SongsUserControl Library="{Binding MyLibrary}" Grid.Column="0"/>-->
+            
+        </Grid>
+
+        <StackPanel Grid.Row="1" Orientation="Horizontal" >
+            <Button Content="Ajouter une musque" Click="btnAdd_Click"/>
+        </StackPanel>
 
     </Grid>
+    <Window Content="{Binding AddSongWindow}"/>
 </Window>

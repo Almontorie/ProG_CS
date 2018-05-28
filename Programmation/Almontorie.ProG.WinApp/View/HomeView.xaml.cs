@@ -14,6 +14,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
 using Almontorie.ProG.Service;
 using System.ComponentModel;
+using Almontorie.ProG.WinApp.View.Home;
 
 namespace Almontorie.ProG.WinApp.View
 {
@@ -54,5 +55,9 @@ namespace Almontorie.ProG.WinApp.View
             get { return selectedItem; }
             set { selectedItem = value; OnPropertyChanged(nameof(SelectedItem)); }
         }
+
+        public AddSongWindow AddSongWindow { get; set; }
+
+        private void btnAdd_Click(object sender, RoutedEventArgs e) => AddSongWindow = new AddSongWindow();
     }
 }
