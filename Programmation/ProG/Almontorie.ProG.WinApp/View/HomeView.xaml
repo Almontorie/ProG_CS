@@ -15,24 +15,9 @@
             <ColumnDefinition Width="7*"/>
         </Grid.ColumnDefinitions>
 
-        <Grid Grid.Column="0">
-            <Grid.RowDefinitions>
-                <RowDefinition/>
-                <RowDefinition Height="auto"/>
-                <RowDefinition Height="auto"/>
-            </Grid.RowDefinitions>
-            
 
+        <Home:DetailsUserControl Song="{Binding MySong}" Grid.Column="1"/>
+        <Home:SongsUserControl Library="{Binding MyLibrary}" Grid.Column="0"/>
 
-
-
-            <ListBox ItemsSource="{Binding MyLibrary.ListSong}" DisplayMemberPath="Name" SelectedItem="{Binding SelectedItem}" Grid.Row="0"/>
-
-            <Button Content="Ajouter une musque" Click="btnAdd_Click" Grid.Row="1"/>
-            <Button Content="Sauvegarder la librairie" Click="btnSave_Click" Grid.Row="2"/>
-
-        </Grid>
-        
-        <Home:DetailsUserControl Song="{Binding SelectedItem}" Library="{Binding MyLibrary}" Grid.Column="1" Grid.Row="1"/>
     </Grid>
 </Window>

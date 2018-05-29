@@ -38,8 +38,6 @@ namespace Almontorie.ProG.WinApp.View
             _serv = new XmlService();
 
             MyLibrary = _serv.LoadLibrary();
-
-            //MySong = MyLibrary.ListSong[0];
         }
 
         public event PropertyChangedEventHandler PropertyChanged;
@@ -58,6 +56,19 @@ namespace Almontorie.ProG.WinApp.View
 
         public AddSongWindow AddSongWindow { get; set; }
 
-        private void btnAdd_Click(object sender, RoutedEventArgs e) => AddSongWindow = new AddSongWindow();
+        private void btnAdd_Click(object sender, RoutedEventArgs e)
+        {
+            AddSongWindow = new AddSongWindow();
+            AddSongWindow.ShowDialog();
+
+            if(AddSongWindow.Name != null)
+                MyLibrary.AddSong(AddSongWindow.SaveSong);
+        }
+
+        private void btnSave_Click(object sender, RoutedEventArgs e)
+        {
+            IService serv = new XmlService();
+            serv.SaveLibrary(MyLibrary);
+        }
     }
 }

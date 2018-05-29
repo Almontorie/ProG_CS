@@ -1,5 +1,4 @@
 ﻿using Almontorie.ProG.Model;
-using Almontorie.ProG.Service;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -30,23 +29,9 @@ namespace Almontorie.ProG.WinApp.View.Home
         static DetailsUserControl()
         {
             SongProperty = DependencyProperty.Register("Song", typeof(Song), typeof(DetailsUserControl));
-            LibraryProperty = DependencyProperty.Register("Library", typeof(Library), typeof(DetailsUserControl));
         }
 
         public static readonly DependencyProperty SongProperty;
-        public static readonly DependencyProperty LibraryProperty;
-
-        public Library Library
-        {
-            get
-            {
-                return GetValue(DetailsUserControl.LibraryProperty) as Library;
-            }
-            set
-            {
-                SetValue(DetailsUserControl.LibraryProperty, value);
-            }
-        }
 
         public Song Song
         {
@@ -60,26 +45,5 @@ namespace Almontorie.ProG.WinApp.View.Home
             }
         }
 
-        private void mButtonDelete_Click(object sender, RoutedEventArgs e)
-        {
-            if(Song != null)
-                Library.DeleteSong(Song);
-        }
-
-        public AddSongWindow AddSongWindow { get; set; }
-        private void mButtonModify_Click(object sender, RoutedEventArgs e)
-        {
-            if (Song == null)
-                return;
-
-            AddSongWindow = new AddSongWindow(Song);
-            AddSongWindow.ShowDialog();
-
-            if (AddSongWindow.Name != null)
-            {
-                Library.DeleteSong(Song);
-                Library.AddSong(AddSongWindow.SaveSong);
-            }
-        }
     }
 }

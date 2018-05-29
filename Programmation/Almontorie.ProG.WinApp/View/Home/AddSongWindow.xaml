@@ -4,9 +4,105 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Almontorie.ProG.WinApp.View.Home"
-        mc:Ignorable="d"
+        mc:Ignorable="d" 
         Title="AddSongWindow" Height="450" Width="800">
     <Grid>
-        <TextBlock Text="test"/>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+
+        <TextBlock Text="Nom :" Grid.Row="0"/>
+        <TextBlock Text="Artiste :" Grid.Row="1"/>
+        <TextBlock Text="Date de naissance :" Grid.Row="2"/>
+        <TextBlock Text="Album :" Grid.Row="3"/>
+        <TextBlock Text="Date de sortie :" Grid.Row="4"/>
+        <TextBlock Text="Durée :" Grid.Row="5"/>
+
+        <TextBox  Name="mTextBoxName" Text="{Binding SongName}" Grid.Column="1"/>
+        <TextBox Text="{Binding NameArtist}" Grid.Column="1" Grid.Row="1"/>
+
+        <Grid Grid.Column="1" Grid.Row="2">
+
+            <Grid.RowDefinitions>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+
+            <TextBlock Text="Jour :" Grid.Row="0"/>
+            <TextBlock Text="Mois :" Grid.Row="1"/>
+            <TextBlock Text="Année :" Grid.Row="2"/>
+
+            <TextBox Text="{Binding DayArtist}" Grid.Column="1" Grid.Row="0"/>
+            <TextBox Text="{Binding MonthArtist}" Grid.Column="1" Grid.Row="1"/>
+            <TextBox Text="{Binding YearArtist}" Grid.Column="1" Grid.Row="2"/>
+
+        </Grid>
+        
+        <TextBox Text="{Binding NameAlbum}" Grid.Column="1" Grid.Row="3"/>
+        
+        <Grid Grid.Column="1" Grid.Row="4">
+
+            <Grid.RowDefinitions>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+
+            <TextBlock Text="Jour :" Grid.Row="0"/>
+            <TextBlock Text="Mois :" Grid.Row="1"/>
+            <TextBlock Text="Année :" Grid.Row="2"/>
+
+            <TextBox Text="{Binding DayAlbum}" Grid.Column="1" Grid.Row="0"/>
+            <TextBox Text="{Binding MonthAlbum}" Grid.Column="1" Grid.Row="1"/>
+            <TextBox Text="{Binding YearAlbum}" Grid.Column="1" Grid.Row="2"/>
+
+        </Grid>
+
+        <Grid Grid.Column="1" Grid.Row="5">
+
+            <Grid.RowDefinitions>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+
+            <TextBlock Text="Secondes :" Grid.Row="0"/>
+            <TextBlock Text="Minutes :" Grid.Row="1"/>
+            <TextBlock Text="Heures :" Grid.Row="2"/>
+
+            <TextBox Text="{Binding Sec}" Grid.Column="1" Grid.Row="0"/>
+            <TextBox Text="{Binding Min}" Grid.Column="1" Grid.Row="1"/>
+            <TextBox Text="{Binding Hour}" Grid.Column="1" Grid.Row="2"/>
+
+        </Grid>
+
+        <Button Content="Enregistrer" Click="btnSave_Click" Grid.Row="8" Grid.ColumnSpan="2"/>
     </Grid>
 </Window>

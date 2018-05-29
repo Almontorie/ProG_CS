@@ -1,6 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Collections.ObjectModel;
 using System.Linq;
 using System.Runtime.Serialization;
 using System.Text;
@@ -12,7 +11,7 @@ namespace Almontorie.ProG.Model
     public class Library
     {
         [DataMember(EmitDefaultValue = false)]
-        public ObservableCollection<Song> ListSong { get; private set; }
+        public List<Song> ListSong { get; private set; }
 
         [DataMember(EmitDefaultValue = false)]
         public List<Artist> ListArtist  { get; private set; }
@@ -28,7 +27,7 @@ namespace Almontorie.ProG.Model
 
         public Library()
         {
-            ListSong = new ObservableCollection<Song>();
+            ListSong = new List<Song>();
             ListArtist = new List<Artist>();
             ListAlbum = new List<Album>();
             ListPlaylist = new List<Playlist>();
@@ -37,9 +36,6 @@ namespace Almontorie.ProG.Model
 
         public void AddSong(Song Track)
         {
-            if (Track == null)
-                return;
-
             if (ListSong.Contains(Track))
             {
                 Console.WriteLine("Cette musique est déjà présente dans la librarie");
@@ -70,9 +66,6 @@ namespace Almontorie.ProG.Model
                 int i;
                 i = ListAlbum.IndexOf(Track.Album);
                 ListAlbum[i].DeleteSong(Track);
-
-                if (ListAlbum[i].ListSong.Count() == 0)
-                    DeleteAlbum(ListAlbum[i]);
             }
 
             foreach (var playlist in ListPlaylist)
