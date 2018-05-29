@@ -43,6 +43,11 @@ namespace Almontorie.ProG.Model
             return Day + "/" + Month + "/" + Year;
         }
 
+        /// <summary>
+        /// Deux dates sont identiques si toutes leurs propriétés sont égales.
+        /// </summary>
+        /// <param name="obj"></param>
+        /// <returns></returns>
         public override bool Equals(object obj)
         {
             var date = obj as Date;

@@ -33,7 +33,10 @@ namespace Almontorie.ProG.ConsoleApp
 
         */
 
-
+        /// <summary>
+        /// Affiche les musiques de l'album passée en paramètre.
+        /// </summary>
+        /// <param name="a"></param>
         public void DisplaySongOfAlbum(Album a)
         {
             DisplayObject(a);
@@ -43,6 +46,10 @@ namespace Almontorie.ProG.ConsoleApp
             }
         }
 
+        /// <summary>
+        /// Affiche les musiques de l'artiste passée en paramètre.
+        /// </summary>
+        /// <param name="a"></param>
         public void DisplaySongOfArtist(Artist a)
         {
             DisplayObject(a);
@@ -52,6 +59,10 @@ namespace Almontorie.ProG.ConsoleApp
             }
         }
 
+        /// <summary>
+        /// Affiche les musiques de la playlist passée en paramètre.
+        /// </summary>
+        /// <param name="p"></param>
         public void DisplaySongOfPlaylist(Playlist p)
         {
             int i = 1;
@@ -63,16 +74,31 @@ namespace Almontorie.ProG.ConsoleApp
             }
         }
 
+        /// <summary>
+        /// Affiche le "ToString" de l'objet passée en paramètre.
+        /// </summary>
+        /// <param name="o"></param>
         public void DisplayObject(object o)
         {
             Console.WriteLine(o);
         }
 
+        /// <summary>
+        /// Affiche les informations sur l'artiste passée en paramètre.
+        /// </summary>
+        /// <param name="a"></param>
         public void DisplayArtist(Artist a)
         {
             Console.WriteLine(a + " né(e) le : " + a.Birthday);
         }
 
+        /// <summary>
+        /// Demande la saisie d'une musique.
+        /// Appelle AskForTime, AskForArtist, AskForAlbum.
+        /// </summary>
+        /// <returns>
+        /// Retourne la musique saisie.
+        /// </returns>
         public Song AskForSong()
         {
             Console.WriteLine("Nom de la musique : ");
@@ -104,6 +130,13 @@ namespace Almontorie.ProG.ConsoleApp
             return new Song(name, t);
         }
 
+        /// <summary>
+        /// Demande la saisie d'une durée.
+        /// Appelle AskForNumber.
+        /// </summary>
+        /// <returns>
+        /// Retourne la durée saisie.
+        /// </returns>
         public Time AskForTime()
         {
             bool exit = true;
@@ -138,6 +171,13 @@ namespace Almontorie.ProG.ConsoleApp
             return new Time(hour, min, sec);
         }
 
+        /// <summary>
+        /// Demande la saisie d'un artiste.
+        /// Appelle AskForDate.
+        /// </summary>
+        /// <returns>
+        /// Retourne l'artiste saisie.
+        /// </returns>
         public Artist AskForArtist()
         {
             Console.WriteLine("Nom de l'artiste : ");
@@ -155,6 +195,13 @@ namespace Almontorie.ProG.ConsoleApp
             return new Artist(nameArti);
         }
 
+        /// <summary>
+        /// Demande la saisie d'une date.
+        /// Appelle AskForNumber.
+        /// </summary>
+        /// <returns>
+        /// Retourne la date saisie.
+        /// </returns>
         public Date AskForDate()
         {
             bool exit = true;
@@ -191,6 +238,13 @@ namespace Almontorie.ProG.ConsoleApp
             
         }
 
+        /// <summary>
+        /// Demande la saisie d'un album.
+        /// Appelle AskForDate.
+        /// </summary>
+        /// <returns>
+        /// Retourne l'album saisie.
+        /// </returns>
         public Album AskForAlbum(Artist arti)
         {
             Console.WriteLine("Nom de l'album : ");
@@ -207,7 +261,13 @@ namespace Almontorie.ProG.ConsoleApp
 
             return new Album(nameAlbum, arti);
         }
-
+        
+        /// <summary>
+         /// Demande la saisie d'une playlist.
+         /// </summary>
+         /// <returns>
+         /// Retourne la playlist saisie.
+         /// </returns>
         public Playlist AskForPlaylist()
         {
             Console.WriteLine("Nom de la Playlist :");
@@ -216,6 +276,12 @@ namespace Almontorie.ProG.ConsoleApp
             return new Playlist(name);
         }
 
+        /// <summary>
+        /// Demande la saisie d'un nombre entier.
+        /// </summary>
+        /// <returns>
+        /// Retourne le nombre entier saisie.
+        /// </returns>
         public int AskForNumber()
         {
             int number;
@@ -236,11 +302,19 @@ namespace Almontorie.ProG.ConsoleApp
             return number;
         }
 
+        /// <summary>
+        /// Affiche le texte passée en paramètre.
+        /// </summary>
+        /// <param name="text"></param>
         public void DisplayText(string text)
         {
             Console.WriteLine(text);
         }
 
+        /// <summary>
+        /// Affiche la liste d'artistes de la librairie passée en paramètre.
+        /// </summary>
+        /// <param name="l"></param>
         public void DisplayListOfArtist(Library l)
         {
             int i = 1;
@@ -251,6 +325,10 @@ namespace Almontorie.ProG.ConsoleApp
             }
         }
 
+        /// <summary>
+        /// Affiche la liste de musiques de la librairie passée en paramètre.
+        /// </summary>
+        /// <param name="l"></param>
         public void DisplayListOfSong(Library l)
         {
             int i = 1;
@@ -261,6 +339,10 @@ namespace Almontorie.ProG.ConsoleApp
             }
         }
 
+        /// <summary>
+        /// Affiche la liste de playlists de la librairie passée en paramètre.
+        /// </summary>
+        /// <param name="l"></param>
         public void DisplayListOfPlaylist(Library l)
         {
             int i = 1;
@@ -271,6 +353,10 @@ namespace Almontorie.ProG.ConsoleApp
             }
         }
 
+        /// <summary>
+        /// Affiche la liste d'albums de la librairie passée en paramètre.
+        /// </summary>
+        /// <param name="l"></param>
         public void DisplayListOfAlbum(Library l)
         {
             int i = 1;

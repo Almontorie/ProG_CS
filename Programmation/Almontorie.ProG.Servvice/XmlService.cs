@@ -11,6 +11,12 @@ namespace Almontorie.ProG.Service
 {
     public class XmlService : IService
     {
+        /// <summary>
+        /// Lit la librairie située dans le fichier "save.xml" ou crée une nouvelle librairie.
+        /// </summary>
+        /// <returns>
+        /// Retourne la librairie.
+        /// </returns>
         public Library LoadLibrary()
         {
             //Directory.SetCurrentDirectory(Path.Combine(Directory.GetParent(Directory.GetCurrentDirectory()).FullName));
@@ -34,6 +40,10 @@ namespace Almontorie.ProG.Service
             return myLibrary;
         }
 
+        /// <summary>
+        /// Sauvegarde la librairie passée en paramètre dans le fichier "save.xml".
+        /// </summary>
+        /// <param name="myLibrary"></param>
         public void SaveLibrary(Library myLibrary)
         {
             //Directory.SetCurrentDirectory(Path.Combine(Directory.GetParent(Directory.GetCurrentDirectory()).FullName));

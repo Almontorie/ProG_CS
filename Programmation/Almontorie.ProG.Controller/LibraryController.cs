@@ -17,7 +17,12 @@ namespace Almontorie.ProG.Controller
         {
             _view = view;
         }
-    
+        
+        /// <summary>
+        /// Menu console chargeant le fichier de sauvegarde.
+        /// Il proposent les différentes options possibles pour la manipulation de la librairie.
+        /// Sauvegarde la librairie avant à l'arrêt.
+        /// </summary>
         public void Menu()
         {
             Library library = new Library();

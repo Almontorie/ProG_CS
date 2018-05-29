@@ -53,12 +53,20 @@ namespace Almontorie.ProG.Model
         {
         }
 
+        /// <summary>
+        /// Ajoute la musique passée en paramètre à l'album
+        /// </summary>
+        /// <param name="Track"></param>
         internal void AddSong(Song Track)
         {
             ListSong.Add(Track);
             Length = Length.Addition(Track.Length);
         }
 
+        /// <summary>
+        /// Suprime la musique passée en paramètre de l'album
+        /// </summary>
+        /// <param name="Track"></param>
         internal void DeleteSong(Song Track)
         {
             ListSong.Remove(Track);
@@ -71,6 +79,11 @@ namespace Almontorie.ProG.Model
             return Name + " de " + Artist + " sorti le : " + ReleaseDate + " (" + Length + ")";
         }
 
+        /// <summary>
+        /// Deux albums sont identiques quand leurs noms et leurs artistes sont identiques
+        /// </summary>
+        /// <param name="obj"></param>
+        /// <returns></returns>
         public override bool Equals(object obj)
         {
             var album = obj as Album;

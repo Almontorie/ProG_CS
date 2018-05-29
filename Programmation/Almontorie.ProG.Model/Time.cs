@@ -39,6 +39,13 @@ namespace Almontorie.ProG.Model
         {
         }
         
+        /// <summary>
+        /// Additionne la durée qui a appelé la méthode avec la durée passée en paramètre.
+        /// </summary>
+        /// <param name="Time"></param>
+        /// <returns>
+        /// Retourne le résultat de la somme.
+        /// </returns>
         public Time Addition(Time Time)
         {
             Time retour = new Time();
@@ -69,6 +76,13 @@ namespace Almontorie.ProG.Model
             return retour;
         }
 
+        /// <summary>
+        /// Soustrait la durée passée en paramètre à la durée qui a appelé la méthode.
+        /// </summary>
+        /// <param name="Time"></param>
+        /// <returns>
+        /// Retourne le résultat de la soustraction.
+        /// </returns>
         public Time Substraction(Time Time)
         {
             Time retour = new Time();
@@ -106,6 +120,11 @@ namespace Almontorie.ProG.Model
             return Day + "j " + Hour + ":" + Min + ":" + Second;
         }
 
+        /// <summary>
+        /// Deux durées sont identiques si toutes leurs propriétés sont égales.
+        /// </summary>
+        /// <param name="obj"></param>
+        /// <returns></returns>
         public override bool Equals(object obj)
         {
             var time = obj as Time;

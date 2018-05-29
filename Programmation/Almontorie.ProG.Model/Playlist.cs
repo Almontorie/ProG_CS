@@ -29,12 +29,20 @@ namespace Almontorie.ProG.Model
             ListSong = new List<Song>();
         }
 
+        /// <summary>
+        /// Ajoute une musique passée en paramètre à la playlist.
+        /// </summary>
+        /// <param name="Track"></param>
         public void AddSong(Song Track)
         {
             ListSong.Add(Track);
             Length = Length.Addition(Track.Length);
         }
 
+        /// <summary>
+        /// Supprime une musique passée en paramètre de la playlist.
+        /// </summary>
+        /// <param name="Track"></param>
         public void DeleteSong(Song Track)
         {
             ListSong.Remove(Track);
@@ -46,6 +54,11 @@ namespace Almontorie.ProG.Model
             return Name+" ("+Length+")";
         }
 
+        /// <summary>
+        /// Deux playlists sont identiques si leurs noms sont identiques.
+        /// </summary>
+        /// <param name="obj"></param>
+        /// <returns></returns>
         public override bool Equals(object obj)
         {
             var playlist = obj as Playlist;

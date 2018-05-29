@@ -35,6 +35,15 @@ namespace Almontorie.ProG.Model
             Length = new Time();
         }
 
+        /// <summary>
+        /// Ajoute la musique passée en paramètre à la librarie sauf si elle est déjà présente.
+        /// Appelle "AddArtist" si l'artiste n'est pas déjà présent dans la librairie.
+        /// Appelle "AddSong" de l'artiste saisie.
+        /// Si un album a été saisie,
+        ///     appelle "AddAlbum" si l'album n'est pas déjà présent dans la librairie.
+        ///     appelle "AddSong" de l'album saisie.
+        /// </summary>
+        /// <param name="Track"></param>
         public void AddSong(Song Track)
         {
             if (Track == null)
@@ -60,6 +69,10 @@ namespace Almontorie.ProG.Model
             }
         }
 
+        /// <summary>
+        /// Supprime la musique passée en paramètre de la toute la librarie sauf si elle n'est pas présente dedans.
+        /// </summary>
+        /// <param name="Track"></param>
         public void DeleteSong(Song Track)
         {
             ListSong.Remove(Track);
@@ -89,27 +102,47 @@ namespace Almontorie.ProG.Model
 
         }
 
+        /// <summary>
+        /// Ajoute un album passée en paramètre à la liste des albums.
+        /// </summary>
+        /// <param name="Album"></param>
         private void AddAlbum(Album Album)
         {
             ListAlbum.Add(Album);
         }
 
+        /// <summary>
+        /// Supprime un album passée en paramètre de la liste des albums.
+        /// </summary>
+        /// <param name="Album"></param>
         public void DeleteAlbum(Album Album)
         {
             Album.ListSong.Clear();
             ListAlbum.Remove(Album);
         }
 
+        /// <summary>
+        /// Ajoute un artiste passée en paramètre à la liste des artistes.
+        /// </summary>
+        /// <param name="Artist"></param>
         private void AddArtist(Artist Artist)
         {
             ListArtist.Add(Artist);
         }
 
+        /// <summary>
+        /// Supprime un artiste passée en paramètre de la liste des artistes.
+        /// </summary>
+        /// <param name="Artist"></param>
         private void DeleteArtist(Artist Artist)
         {
             ListArtist.Remove(Artist);
         }
 
+        /// <summary>
+        /// Ajoute une playlist passée en paramètre à la liste des playlists.
+        /// </summary>
+        /// <param name="TrackList"></param>
         public void AddPlaylist(Playlist TrackList)
         {
             if (ListPlaylist.Contains(TrackList))
@@ -120,6 +153,10 @@ namespace Almontorie.ProG.Model
             ListPlaylist.Add(TrackList);
         }
 
+        /// <summary>
+        /// Supprime une playlist passée en paramètre de la liste des playlists.
+        /// </summary>
+        /// <param name="TrackList"></param>
         public void DeletePlaylist(Playlist TrackList)
         {
             TrackList.ListSong.Clear();

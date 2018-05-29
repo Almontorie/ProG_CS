@@ -43,6 +43,11 @@ namespace Almontorie.ProG.Model
             return Name+" de "+Artist+" ("+Length+")";
         }
 
+        /// <summary>
+        /// Deux musiques sont identiques si leurs noms et leurs artistes sont identiques.
+        /// </summary>
+        /// <param name="obj"></param>
+        /// <returns></returns>
         public override bool Equals(object obj)
         {
             var song = obj as Song;

@@ -40,12 +40,19 @@ namespace Almontorie.ProG.Model
         {
         }
 
-
+        /// <summary>
+        /// Ajoute la musique passée en paramètre à la liste de musique appartenant à l'artiste
+        /// </summary>
+        /// <param name="Track"></param>
         public void AddSong(Song Track)
         {
             ListSong.Add(Track);
         }
 
+        /// <summary>
+        /// Supprime la musique passée en paramètre de la liste de musique appartenant à l'artiste
+        /// </summary>
+        /// <param name="Track"></param>
         public void DeleteSong(Song Track)
         {
             ListSong.Remove(Track);
@@ -56,6 +63,11 @@ namespace Almontorie.ProG.Model
             return Name;
         }
 
+        /// <summary>
+        /// Deux artistes sont identiques quand leurs noms et leurs dates de naissance sont identiques
+        /// </summary>
+        /// <param name="obj"></param>
+        /// <returns></returns>
         public override bool Equals(object obj)
         {
             var artist = obj as Artist;
