@@ -6,7 +6,7 @@
         xmlns:local="clr-namespace:Almontorie.ProG.WinApp.View"
         xmlns:Home="clr-namespace:Almontorie.ProG.WinApp.View.Home" x:Class="Almontorie.ProG.WinApp.View.HomeView"
         mc:Ignorable="d" 
-        Title="HomeView" Height="379.882" Width="520.118">
+        Title="HomeView" Height="450" Width="800">
 
 
     <Grid>
@@ -17,19 +17,23 @@
 
         <Grid Grid.Column="0">
             <Grid.RowDefinitions>
+                <RowDefinition Height="auto"/>
                 <RowDefinition/>
                 <RowDefinition Height="auto"/>
                 <RowDefinition Height="auto"/>
             </Grid.RowDefinitions>
-            
 
 
+            <StackPanel Orientation="Horizontal">
+                <TextBlock Text="Librairie : "/>
+                <TextBlock Text="{Binding MyLibrary.Length}"/>
+            </StackPanel>
 
 
-            <ListBox ItemsSource="{Binding MyLibrary.ListSong}" DisplayMemberPath="Name" SelectedItem="{Binding SelectedItem}" Grid.Row="0"/>
+            <ListBox ItemsSource="{Binding MyLibrary.ListSong}" DisplayMemberPath="Name" SelectedItem="{Binding SelectedItem}" Grid.Row="1"/>
 
-            <Button Content="Ajouter une musique" Click="btnAdd_Click" Grid.Row="1"/>
-            <Button Content="Sauvegarder la librairie" Click="btnSave_Click" Grid.Row="2"/>
+            <Button Content="Ajouter une musique" Click="btnAdd_Click" Grid.Row="2"/>
+            <Button Content="Sauvegarder la librairie" Click="btnSave_Click" Grid.Row="3"/>
 
         </Grid>
         
