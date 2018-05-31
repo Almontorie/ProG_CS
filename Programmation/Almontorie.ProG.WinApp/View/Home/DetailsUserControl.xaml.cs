@@ -77,7 +77,8 @@ namespace Almontorie.ProG.WinApp.View.Home
 
             if (AddSongWindow.Name != null)
             {
-                Library.DeleteSong(Song);
+                if (AddSongWindow.SaveSong != null)
+                    Library.DeleteSong(Song);
                 Library.AddSong(AddSongWindow.SaveSong);
             }
         }
