@@ -20,6 +20,10 @@ namespace Almontorie.ProG.Model
         [DataMember (EmitDefaultValue = false)]
         public List<Song> ListSong { get; private set; }
 
+        /// <summary>
+        /// Consructeur
+        /// </summary>
+        /// <param name="name"></param>
         public Playlist(string name)
         {
             if (name == null)
@@ -49,6 +53,12 @@ namespace Almontorie.ProG.Model
             Length = Length.Substraction(Track.Length);
         }
 
+        /// <summary>
+        /// Redéfinition de ToString()
+        /// </summary>
+        /// <returns>
+        /// string contenant le nom de la playlist et sa durée
+        /// </returns>
         public override string ToString()
         {
             return Name+" ("+Length+")";
@@ -58,7 +68,11 @@ namespace Almontorie.ProG.Model
         /// Deux playlists sont identiques si leurs noms sont identiques.
         /// </summary>
         /// <param name="obj"></param>
-        /// <returns></returns>
+        /// <returns>
+        /// bool :
+        ///     Si égales : true
+        ///     Sinon : false
+        /// </returns>
         public override bool Equals(object obj)
         {
             var playlist = obj as Playlist;
@@ -66,6 +80,12 @@ namespace Almontorie.ProG.Model
                    Name == playlist.Name;
         }
 
+        /// <summary>
+        /// HashCode calculé avec la propiété Name
+        /// </summary>
+        /// <returns>
+        /// int : valeur de hashCode 
+        /// </returns>
         public override int GetHashCode()
         {
             return 539060726 + EqualityComparer<string>.Default.GetHashCode(Name);

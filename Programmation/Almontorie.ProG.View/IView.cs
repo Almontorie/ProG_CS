@@ -9,17 +9,6 @@ namespace Almontorie.ProG.View
 {
     public interface IView
     {
-        /*
-        void DisplaySong(Song s);
-
-        void DisplayPlaylist(Playlist p);
-
-        void DisplayAlbum(Album a);
-
-        void DisplayArtist(Artist a);
-
-        */
-
         void DisplayObject(object o);
 
         void DisplayArtist(Artist a);

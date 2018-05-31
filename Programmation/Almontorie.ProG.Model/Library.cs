@@ -26,6 +26,9 @@ namespace Almontorie.ProG.Model
         [DataMember(EmitDefaultValue = false)]
         public Time Length { get; private set; }
 
+        /// <summary>
+        /// Constructeur
+        /// </summary>
         public Library()
         {
             ListSong = new ObservableCollection<Song>();

@@ -25,7 +25,12 @@ namespace Almontorie.ProG.Model
         [DataMember (EmitDefaultValue = false)]
         public List<Song> ListSong { get; private set; }
 
-
+        /// <summary>
+        /// Constructeur
+        /// </summary>
+        /// <param name="Name"></param>
+        /// <param name="Artist"></param>
+        /// <param name="ReleaseDate"></param>
         public Album(string Name, Artist Artist, Date ReleaseDate)
         {
             if(Name == null || Artist == null || ReleaseDate == null)
@@ -37,18 +42,35 @@ namespace Almontorie.ProG.Model
             Length = new Time();
         } 
 
+        /// <summary>
+        /// Constructeur
+        /// </summary>
+        /// <param name="Name"></param>
+        /// <param name="Artist"></param>
         public Album(string Name, Artist Artist) :this(Name,Artist,new Date())
         {
         }
 
+        /// <summary>
+        /// Constructeur
+        /// </summary>
+        /// <param name="Name"></param>
+        /// <param name="ReleaseDate"></param>
         public Album(string Name, Date ReleaseDate) :this(Name, new Artist(), ReleaseDate)
         {
         }
 
+        /// <summary>
+        /// Constructeur
+        /// </summary>
+        /// <param name="Name"></param>
         public Album(string Name) :this(Name,new Date())
         {
         }
 
+        /// <summary>
+        /// Constructeur
+        /// </summary>
         public Album() : this("Unknown")
         {
         }
@@ -73,7 +95,12 @@ namespace Almontorie.ProG.Model
             Length = Length.Substraction(Track.Length);
         }
         
-
+        /// <summary>
+        /// Redéfinition de ToString()
+        /// </summary>
+        /// <returns>
+        /// string contenant le nom de l'album, son artiste, sa date de sortie et sa durée
+        /// </returns>
         public override string ToString()
         {
             return Name + " de " + Artist + " sorti le : " + ReleaseDate + " (" + Length + ")";
@@ -83,7 +110,11 @@ namespace Almontorie.ProG.Model
         /// Deux albums sont identiques quand leurs noms et leurs artistes sont identiques
         /// </summary>
         /// <param name="obj"></param>
-        /// <returns></returns>
+        /// <returns>
+        /// bool :
+        ///     Si égaux : true
+        ///     Sinon : false
+        /// </returns>
         public override bool Equals(object obj)
         {
             var album = obj as Album;
@@ -92,6 +123,12 @@ namespace Almontorie.ProG.Model
                    EqualityComparer<Artist>.Default.Equals(Artist, album.Artist);
         }
 
+        /// <summary>
+        /// HashCode calculé avec les propriétés Name et Artist
+        /// </summary>
+        /// <returns>
+        /// int : valeur de hashCode
+        /// </returns>
         public override int GetHashCode()
         {
             var hashCode = 88401470;

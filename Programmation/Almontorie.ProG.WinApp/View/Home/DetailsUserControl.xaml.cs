@@ -60,13 +60,25 @@ namespace Almontorie.ProG.WinApp.View.Home
             }
         }
 
+        public AddSongWindow AddSongWindow { get; set; }
+
+        /// <summary>
+        /// Si une musique est sélectionée, la supprime de la library
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void mButtonDelete_Click(object sender, RoutedEventArgs e)
         {
             if(Song != null)
                 Library.DeleteSong(Song);
         }
 
-        public AddSongWindow AddSongWindow { get; set; }
+        /// <summary>
+        /// Instancie est ouvre une AddSongWindow
+        /// Supprime la musique sélécttionnée et la remplace par celle qui est modifiée si le champ "Nom :" de AddSongWindow est renseigné
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void mButtonModify_Click(object sender, RoutedEventArgs e)
         {
             if (Song == null)

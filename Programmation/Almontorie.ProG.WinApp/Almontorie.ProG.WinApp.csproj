@@ -68,12 +68,6 @@
     <Compile Include="View\Home\DetailsUserControl.xaml.cs">
       <DependentUpon>DetailsUserControl.xaml</DependentUpon>
     </Compile>
-    <Compile Include="View\Home\MasterUserControl.xaml.cs">
-      <DependentUpon>MasterUserControl.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="View\Home\SongsUserControl.xaml.cs">
-      <DependentUpon>SongsUserControl.xaml</DependentUpon>
-    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs">
@@ -112,14 +106,6 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="View\Home\DetailsUserControl.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="View\Home\MasterUserControl.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="View\Home\SongsUserControl.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

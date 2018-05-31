@@ -22,6 +22,13 @@ namespace Almontorie.ProG.Model
         [DataMember]
         public Album Album { get; private set; }
 
+        /// <summary>
+        /// Constructeur
+        /// </summary>
+        /// <param name="name"></param>
+        /// <param name="artist"></param>
+        /// <param name="length"></param>
+        /// <param name="album"></param>
         public Song(string name, Artist artist, Time length, Album album)
         {
             Name = name;
@@ -30,14 +37,31 @@ namespace Almontorie.ProG.Model
             Album = album;
         }
 
+        /// <summary>
+        /// Constructeur
+        /// </summary>
+        /// <param name="name"></param>
+        /// <param name="artist"></param>
+        /// <param name="length"></param>
         public Song(string name, Artist artist, Time length) :this(name, artist, length, new Album())
         {
         }
 
+        /// <summary>
+        /// Constructeur 
+        /// </summary>
+        /// <param name="name"></param>
+        /// <param name="length"></param>
         public Song(string name, Time length) :this(name, new Artist(), length)
         {
         }
 
+        /// <summary>
+        /// Redefinition de ToString()
+        /// </summary>
+        /// <returns>
+        /// string contenant le nom de la musique, son artiste et sa durée
+        /// </returns>
         public override string ToString()
         {
             return Name+" de "+Artist+" ("+Length+")";
@@ -47,7 +71,11 @@ namespace Almontorie.ProG.Model
         /// Deux musiques sont identiques si leurs noms et leurs artistes sont identiques.
         /// </summary>
         /// <param name="obj"></param>
-        /// <returns></returns>
+        /// <returns>
+        /// bool : 
+        ///     Si égaux : true
+        ///     Sinon  false
+        /// </returns>
         public override bool Equals(object obj)
         {
             var song = obj as Song;
@@ -56,6 +84,12 @@ namespace Almontorie.ProG.Model
                    EqualityComparer<Artist>.Default.Equals(Artist, song.Artist);
         }
 
+        /// <summary>
+        /// HashCode calculé avec les propriétés Name et Artist
+        /// </summary>
+        /// <returns>
+        /// int : valeur de hashCode
+        /// </returns>
         public override int GetHashCode()
         {
             var hashCode = -1265090060;

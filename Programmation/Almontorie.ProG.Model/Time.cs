@@ -20,6 +20,12 @@ namespace Almontorie.ProG.Model
         [DataMember]
         public int Second { get; private set; }
 
+        /// <summary>
+        /// Constructeur
+        /// </summary>
+        /// <param name="Hour"></param>
+        /// <param name="Min"></param>
+        /// <param name="Second"></param>
         public Time(int Hour, int Min, int Second) :base() 
         {
             if (Hour >= 24 || Min >= 60 || Second >= 60)
@@ -31,10 +37,18 @@ namespace Almontorie.ProG.Model
             this.Second = Second;
         }
 
+        /// <summary>
+        /// Constructeur
+        /// </summary>
+        /// <param name="Min"></param>
+        /// <param name="Second"></param>
         public Time(int Min, int Second) : this(0, Min, Second)
         {
         }
 
+        /// <summary>
+        /// Constructeur
+        /// </summary>
         public Time() : this(0, 0, 0)
         {
         }
@@ -113,6 +127,13 @@ namespace Almontorie.ProG.Model
             return retour;
         }
 
+        /// <summary>
+        /// Redéfinition de ToString()
+        /// </summary>
+        /// <returns>
+        /// string contenant les heures, les minutes et les secondes
+        /// Si l'heure est nulle, contient seulement les minutes et les secondes
+        /// </returns>
         public override string ToString()
         {
             if(Day ==0 )
@@ -121,10 +142,15 @@ namespace Almontorie.ProG.Model
         }
 
         /// <summary>
-        /// Deux durées sont identiques si toutes leurs propriétés sont égales.
+        /// Deux durées sont identiques si :
+        ///     Elles instancient la même classe
+        ///     Si les propriérés de la classe mère, Hour, Min et Sec sont égales
         /// </summary>
         /// <param name="obj"></param>
-        /// <returns></returns>
+        /// <returns>
+        /// Si égaux true
+        /// Sinon false
+        /// </returns>
         public override bool Equals(object obj)
         {
             var time = obj as Time;
@@ -135,6 +161,12 @@ namespace Almontorie.ProG.Model
                    Second == time.Second;
         }
 
+        /// <summary>
+        /// HashCode calculé avec les propriétés de la classe mère, Hour, Min et Sec
+        /// </summary>
+        /// <returns>
+        /// int : valeur du hashCode
+        /// </returns>
         public override int GetHashCode()
         {
             var hashCode = 1227425067;

@@ -20,6 +20,12 @@ namespace Almontorie.ProG.Model
         [DataMember]
         public int Year { get; protected set; }
         
+        /// <summary>
+        /// Constructeur
+        /// </summary>
+        /// <param name="Day"></param>
+        /// <param name="Month"></param>
+        /// <param name="Year"></param>
         public Date(int Day, int Month, int Year)
         {
             if (Day > 31 || Month > 12)
@@ -31,6 +37,9 @@ namespace Almontorie.ProG.Model
             this.Year = Year;
         } 
 
+        /// <summary>
+        /// Constructeur
+        /// </summary>
         public Date()
         {
             Day = 0;
@@ -38,6 +47,12 @@ namespace Almontorie.ProG.Model
             Year = 0;
         }
 
+        /// <summary>
+        /// Redéfinition de ToString()
+        /// </summary>
+        /// <returns>
+        /// string contenenant le jour, le mois et l'année
+        /// </returns>
         public override string ToString()
         {
             return Day + "/" + Month + "/" + Year;
@@ -47,7 +62,11 @@ namespace Almontorie.ProG.Model
         /// Deux dates sont identiques si toutes leurs propriétés sont égales.
         /// </summary>
         /// <param name="obj"></param>
-        /// <returns></returns>
+        /// <returns>
+        /// bool :
+        ///     Si égaux : true
+        ///     Sinon : false
+        /// </returns>
         public override bool Equals(object obj)
         {
             var date = obj as Date;
@@ -57,6 +76,12 @@ namespace Almontorie.ProG.Model
                    Year == date.Year;
         }
 
+        /// <summary>
+        /// HashCode calculé avec les propriétés Day, Month et Year
+        /// </summary>
+        /// <returns>
+        /// int : valeur de hashCode
+        /// </returns>
         public override int GetHashCode()
         {
             var hashCode = -375065194;

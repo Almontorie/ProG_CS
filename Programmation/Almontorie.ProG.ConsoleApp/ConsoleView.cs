@@ -10,29 +10,6 @@ namespace Almontorie.ProG.ConsoleApp
 {
     public class ConsoleView : IView
     {
-        /*
-        public void DisplayAlbum(Album a)
-        {
-            Console.WriteLine(a);
-        }
-
-        public void DisplayArtist(Artist a)
-        {
-            Console.WriteLine(a);
-        }
-        
-        public void DisplayPlaylist(Playlist p)
-        {
-            Console.WriteLine(p);
-        }
-
-        public void DisplaySong(Song s)
-        {
-            Console.WriteLine(s);
-        }
-
-        */
-
         /// <summary>
         /// Affiche les musiques de l'album passée en paramètre.
         /// </summary>

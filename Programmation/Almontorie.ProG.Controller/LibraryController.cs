@@ -13,6 +13,10 @@ namespace Almontorie.ProG.Controller
     {
         private readonly IView _view;
 
+        /// <summary>
+        /// Constructeur
+        /// </summary>
+        /// <param name="view"></param>
         public LibraryController(IView view)
         {
             _view = view;

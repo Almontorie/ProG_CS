@@ -46,12 +46,19 @@ namespace Almontorie.ProG.WinApp.View.Home
 
         #endregion
 
+        /// <summary>
+        /// Constructeur
+        /// </summary>
         public AddSongWindow()
         {
             InitializeComponent();
             DataContext = this;
         }
 
+        /// <summary>
+        /// Constructeur
+        /// </summary>
+        /// <param name="song"></param>
         public AddSongWindow(Song song)
         {
             InitializeComponent();
@@ -74,7 +81,13 @@ namespace Almontorie.ProG.WinApp.View.Home
             Hour = song.Length.Hour;
         }
 
-
+        /// <summary>
+        /// Si le champ "Nom :" est renseignée :
+        ///     Instancie un Song et ferme la fenêtre 
+        /// Sinon ne fait rien
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void btnSave_Click(object sender, RoutedEventArgs e)
 
         {

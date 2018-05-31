@@ -56,6 +56,12 @@ namespace Almontorie.ProG.WinApp.View
 
         public AddSongWindow AddSongWindow { get; set; }
 
+        /// <summary>
+        /// Instancie et ouvre une AddSongWindow
+        /// Un fois AddSongWindow fermée ajoute une musique à la librairie si son nom a été renseigné dans AddSongWindow
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void btnAdd_Click(object sender, RoutedEventArgs e)
         {
             AddSongWindow = new AddSongWindow();
@@ -65,6 +71,11 @@ namespace Almontorie.ProG.WinApp.View
                 MyLibrary.AddSong(AddSongWindow.SaveSong);
         }
 
+        /// <summary>
+        /// Instancie un XmlService et sérialise le contenu de la librairie
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void btnSave_Click(object sender, RoutedEventArgs e)
         {
             IService serv = new XmlService();

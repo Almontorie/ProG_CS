@@ -23,6 +23,11 @@ namespace Almontorie.ProG.Model
         [DataMember (EmitDefaultValue = false)]
         public List<Song> ListSong { get; private set; }
         
+        /// <summary>
+        /// Constructeur
+        /// </summary>
+        /// <param name="Name"></param>
+        /// <param name="Birthday"></param>
         public Artist(string Name, Date Birthday)
         {
             if (Name == null || Birthday == null)
@@ -32,10 +37,17 @@ namespace Almontorie.ProG.Model
             ListSong = new List<Song>();
         }
 
+        /// <summary>
+        /// Constructeur
+        /// </summary>
+        /// <param name="Name"></param>
         public Artist(string Name) :this(Name, new Date())
         {
         }
 
+        /// <summary>
+        /// Constructeur
+        /// </summary>
         public Artist() : this("Unknown")
         {
         }
@@ -58,6 +70,12 @@ namespace Almontorie.ProG.Model
             ListSong.Remove(Track);
         }
 
+        /// <summary>
+        /// Redéfinition de ToString()
+        /// </summary>
+        /// <returns>
+        /// string contenant le nom de l'artiste
+        /// </returns>
         public override string ToString()
         {
             return Name;
@@ -67,7 +85,11 @@ namespace Almontorie.ProG.Model
         /// Deux artistes sont identiques quand leurs noms et leurs dates de naissance sont identiques
         /// </summary>
         /// <param name="obj"></param>
-        /// <returns></returns>
+        /// <returns>
+        /// bool :
+        ///     Si égaux : true
+        ///     Sinon : false
+        /// </returns>
         public override bool Equals(object obj)
         {
             var artist = obj as Artist;
@@ -76,6 +98,12 @@ namespace Almontorie.ProG.Model
                    EqualityComparer<Date>.Default.Equals(Birthday, artist.Birthday);
         }
 
+        /// <summary>
+        /// HashCode calculé avec les propriétes Name et Birthday
+        /// </summary>
+        /// <returns>
+        /// int : valeur de hashCode
+        /// </returns>
         public override int GetHashCode()
         {
             var hashCode = -512614078;
