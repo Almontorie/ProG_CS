@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
+using System.ComponentModel;
 using System.Linq;
 using System.Runtime.Serialization;
 using System.Text;
@@ -9,7 +10,7 @@ using System.Threading.Tasks;
 namespace Almontorie.ProG.Model
 {
     [DataContract (Name = "library")]
-    public class Library
+    public class Library : INotifyPropertyChanged
     {
         [DataMember(EmitDefaultValue = false)]
         public ObservableCollection<Song> ListSong { get; private set; }
@@ -23,8 +24,21 @@ namespace Almontorie.ProG.Model
         [DataMember(EmitDefaultValue = false)]
         public List<Playlist> ListPlaylist { get; private set; }
 
+        public event PropertyChangedEventHandler PropertyChanged;
+
+        private void OnPropertyChanged(string propertyName)
+        {
+            PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propertyName));
+        }
+
+        private Time length;
+
         [DataMember(EmitDefaultValue = false)]
-        public Time Length { get; private set; }
+        public Time Length
+        {
+            get => length;
+            private set { length = value; OnPropertyChanged(nameof(Length)); }
+        }
 
         /// <summary>
         /// Constructeur
