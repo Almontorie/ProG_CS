@@ -15,6 +15,7 @@ using System.Windows.Shapes;
 using Almontorie.ProG.Service;
 using System.ComponentModel;
 using Almontorie.ProG.WinApp.View.Home;
+using System.Data.SqlClient;
 
 namespace Almontorie.ProG.WinApp.View
 {

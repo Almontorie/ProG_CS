@@ -87,7 +87,7 @@ namespace Almontorie.ProG.WinApp.View.Home
             AddSongWindow = new AddSongWindow(Song);
             AddSongWindow.ShowDialog();
 
-            if (AddSongWindow.Name != null)
+            if (AddSongWindow.SaveSong != null)
             {
                 Library.DeleteSong(Song);
                 Library.AddSong(AddSongWindow.SaveSong);

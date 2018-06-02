@@ -93,14 +93,14 @@ namespace Almontorie.ProG.WinApp.View.Home
         {
            Artist arti; 
 
-            if(SongName == null)
+            if(SongName == null || SongName == "")
             {
                 return;
             }
 
             Time length = new Time(Hour, Min, Sec);
             if (NameArtist != null)
-            {
+            {   
                 if (DayArtist != 0 && MonthArtist != 0 && YearArtist != 0)
                 {
                     arti = new Artist(NameArtist, new Date(DayArtist, MonthArtist, YearArtist));

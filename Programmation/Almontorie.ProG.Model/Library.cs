@@ -36,7 +36,7 @@ namespace Almontorie.ProG.Model
         [DataMember(EmitDefaultValue = false)]
         public Time Length
         {
-            get => length;
+            get { return length; }
             private set { length = value; OnPropertyChanged(nameof(Length)); }
         }
 

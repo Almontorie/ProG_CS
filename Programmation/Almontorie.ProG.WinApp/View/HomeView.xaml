@@ -6,8 +6,30 @@
         xmlns:local="clr-namespace:Almontorie.ProG.WinApp.View"
         xmlns:Home="clr-namespace:Almontorie.ProG.WinApp.View.Home" x:Class="Almontorie.ProG.WinApp.View.HomeView"
         mc:Ignorable="d" 
-        Title="HomeView" Height="450" Width="800">
+        Title="HomeView" Height="450" Width="800"
+        Background="{StaticResource background}"
+        Foreground="{StaticResource foreground}">
 
+    <Window.Resources>
+        <Style TargetType="{x:Type Button}">
+            <Setter Property="Foreground" Value="{StaticResource foregroundListNButton}"/>
+            <Setter Property="Background" Value="{StaticResource backgroundButton}"/>
+            <Setter Property="FontFamily" Value="Aharoni"/>
+            <Setter Property="FontSize" Value="14"/>
+        </Style>
+        <Style TargetType="{x:Type ListView}">
+            <Setter Property="Foreground" Value="{StaticResource foregroundListNButton}"/>
+            <Setter Property="Background" Value="{StaticResource backgroud2}"/>
+            <Setter Property="FontFamily" Value="Aharoni"/>
+            <Setter Property="FontSize" Value="15"/>
+            <Setter Property="Padding" Value="1,5"/>
+        </Style>
+        <Style TargetType="{x:Type TextBlock}">
+            <Setter Property="FontFamily" Value="Aharoni"/>
+            <Setter Property="FontSize" Value="20"/>
+            <Setter Property="VerticalAlignment" Value="Center"/>
+        </Style>
+    </Window.Resources>
 
     <Grid>
         <Grid.ColumnDefinitions>
@@ -15,25 +37,31 @@
             <ColumnDefinition Width="7*"/>
         </Grid.ColumnDefinitions>
 
-        <Grid Grid.Column="0">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="auto"/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+
+        <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Margin="0,5,0,5">
+            <TextBlock Text="Librairie : "/>
+            <TextBlock Text="{Binding MyLibrary.Length}"/>
+        </StackPanel>
+
+        <Grid Grid.Column="0" Grid.Row="1">
             <Grid.RowDefinitions>
-                <RowDefinition Height="auto"/>
                 <RowDefinition/>
-                <RowDefinition Height="auto"/>
-                <RowDefinition Height="auto"/>
+                <RowDefinition Height="0.085*"/>
+                <RowDefinition Height="0.085*"/>
             </Grid.RowDefinitions>
 
 
-            <StackPanel Orientation="Horizontal">
-                <TextBlock Text="Librairie : "/>
-                <TextBlock Text="{Binding MyLibrary.Length}"/>
-            </StackPanel>
 
 
-            <ListBox ItemsSource="{Binding MyLibrary.ListSong}" DisplayMemberPath="Name" SelectedItem="{Binding SelectedItem}" Grid.Row="1"/>
 
-            <Button Content="Ajouter une musique" Click="btnAdd_Click" Grid.Row="2"/>
-            <Button Content="Sauvegarder la librairie" Click="btnSave_Click" Grid.Row="3"/>
+            <ListView x:Name="MainList" ItemsSource="{Binding MyLibrary.ListSong}" DisplayMemberPath="Name" SelectedItem="{Binding SelectedItem}" Grid.Row="0"/>
+
+            <Button Content="Ajouter une musique" Click="btnAdd_Click" Grid.Row="1"/>
+            <Button Content="Sauvegarder la librairie" Click="btnSave_Click" Grid.Row="2"/>
 
         </Grid>
         
