@@ -7,11 +7,23 @@
         xmlns:Home="clr-namespace:Almontorie.ProG.WinApp.View.Home" x:Class="Almontorie.ProG.WinApp.View.HomeView"
         mc:Ignorable="d" 
         Title="HomeView" Height="450" Width="800"
+         xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+
         Background="{StaticResource background}"
         Foreground="{StaticResource foreground}">
 
     <Window.Resources>
         <Style TargetType="{x:Type Button}">
+            <Style.Triggers>
+                <Trigger Property="IsMouseOver" Value="True">
+                    <Setter Property="FontWeight" Value="Normal"/>
+                    <Setter Property="FontStyle" Value="Italic"/>
+                    <Setter Property="Foreground" Value="#303030"/>
+                </Trigger>
+                <Trigger Property="IsPressed" Value="True">
+                    <Setter Property="FontWeight" Value="Bold"/>
+                </Trigger>
+            </Style.Triggers>
             <Setter Property="Foreground" Value="{StaticResource foregroundListNButton}"/>
             <Setter Property="Background" Value="{StaticResource backgroundButton}"/>
             <Setter Property="FontFamily" Value="Aharoni"/>
@@ -32,6 +44,7 @@
     </Window.Resources>
 
     <Grid>
+        
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="3*"/>
             <ColumnDefinition Width="7*"/>
@@ -43,6 +56,7 @@
         </Grid.RowDefinitions>
 
         <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Margin="0,5,0,5">
+            <materialDesign:PackIcon Kind="MusicBox" VerticalAlignment="Center" HorizontalAlignment="Center" Margin="-8,0,8,0"/>
             <TextBlock Text="Librairie : "/>
             <TextBlock Text="{Binding MyLibrary.Length}"/>
         </StackPanel>
@@ -54,11 +68,7 @@
                 <RowDefinition Height="0.085*"/>
             </Grid.RowDefinitions>
 
-
-
-
-
-            <ListView x:Name="MainList" ItemsSource="{Binding MyLibrary.ListSong}" DisplayMemberPath="Name" SelectedItem="{Binding SelectedItem}" Grid.Row="0"/>
+            <ListView ItemsSource="{Binding MyLibrary.ListSong}" DisplayMemberPath="Name" SelectedItem="{Binding SelectedItem}" Grid.Row="0"/>
 
             <Button Content="Ajouter une musique" Click="btnAdd_Click" Grid.Row="1"/>
             <Button Content="Sauvegarder la librairie" Click="btnSave_Click" Grid.Row="2"/>

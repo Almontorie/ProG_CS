@@ -7,10 +7,22 @@
              xmlns:Model="clr-namespace:Almontorie.ProG.Model;assembly=Almontorie.ProG.Model" x:Class="Almontorie.ProG.WinApp.View.Home.DetailsUserControl"
              mc:Ignorable="d" 
              x:Name="root"
-             d:DesignHeight="300" d:DesignWidth="300">
+             d:DesignHeight="300" d:DesignWidth="300"
+         xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+>
 
     <UserControl.Resources>
         <Style TargetType="{x:Type Button}">
+            <Style.Triggers>
+                <Trigger Property="IsMouseOver" Value="True">
+                    <Setter Property="FontWeight" Value="Normal"/>
+                    <Setter Property="FontStyle" Value="Italic"/>
+                    <Setter Property="Foreground" Value="#303030"/>
+                </Trigger>
+                <Trigger Property="IsPressed" Value="True">
+                    <Setter Property="FontWeight" Value="Bold"/>
+                </Trigger>
+            </Style.Triggers>
             <Setter Property="Foreground" Value="{StaticResource foregroundListNButton}"/>
             <Setter Property="Background" Value="{StaticResource backgroundButton}"/>
             <Setter Property="FontFamily" Value="Aharoni"/>
@@ -54,11 +66,14 @@
         <TextBlock Text="{Binding Song.Album.ReleaseDate, ElementName=root}" Grid.Row="4" Grid.Column="1"/>
         <TextBlock Text="{Binding Song.Length, ElementName=root}" Grid.Row="5" Grid.Column="1"/>
 
-        <Button Name="mButtonDelete" Content="Supprimer" Click="mButtonDelete_Click" Grid.Row="6"/>
+
+        <Button Name="mButtonDelete" Click="mButtonDelete_Click" Grid.Row="6">
+            <DockPanel>
+                <materialDesign:PackIcon Kind="Delete" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                <TextBlock Text="Supprimer" FontFamily="Aharoni" FontSize="14" Foreground="{StaticResource foregroundListNButton}"/>
+            </DockPanel>
+        </Button>
         <Button Name="mButtonModify" Content="Modifier" Click="mButtonModify_Click" Grid.Row="6" Grid.Column="1"/>
-
-
-
 
     </Grid>
 </UserControl>

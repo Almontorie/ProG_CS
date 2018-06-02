@@ -6,6 +6,8 @@
         xmlns:local="clr-namespace:Almontorie.ProG.WinApp.View.Home"
         mc:Ignorable="d" 
         Title="AddSongWindow" Height="450" Width="800"
+             xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+
         Background="{StaticResource background}"
         Foreground="{StaticResource foreground}"
         >
@@ -13,10 +15,17 @@
 
     <Window.Resources>
         <Style TargetType="{x:Type Button}">
-            <Setter Property="Foreground" Value="{StaticResource foregroundListNButton}"/>
+            <Style.Triggers>
+                <Trigger Property="IsMouseOver" Value="True">
+                    <Setter Property="FontWeight" Value="Normal"/>
+                    <Setter Property="FontStyle" Value="Italic"/>
+                    <Setter Property="Foreground" Value="#303030"/>
+                </Trigger>
+                <Trigger Property="IsPressed" Value="True">
+                    <Setter Property="FontWeight" Value="Bold"/>
+                </Trigger>
+            </Style.Triggers>
             <Setter Property="Background" Value="{StaticResource backgroundButton}"/>
-            <Setter Property="FontFamily" Value="Aharoni"/>
-            <Setter Property="FontSize" Value="14"/>
         </Style>
         <Style TargetType="{x:Type TextBlock}">
             <Setter Property="FontFamily" Value="Aharoni"/>
@@ -101,7 +110,6 @@
             <TextBox Text="{Binding YearArtist}" Grid.Column="1" Grid.Row="2"/>
 
         </Grid>
-
         <TextBox Text="{Binding NameAlbum}" Grid.Column="1" Grid.Row="3" Style="{StaticResource BigTextBox}"/>
 
         <Grid Grid.Column="1" Grid.Row="4" Style="{StaticResource GridDesign}">
@@ -150,6 +158,11 @@
 
         </Grid>
 
-        <Button Content="Enregistrer" Click="btnSave_Click" Grid.Row="8" Grid.ColumnSpan="2" Margin="0,5,0,0"/>
+        <Button Click="btnSave_Click" Grid.Row="8" Grid.ColumnSpan="2" Margin="0,5,0,0">
+            <DockPanel>
+                <materialDesign:PackIcon Kind="ContentSave" VerticalAlignment="Center" HorizontalAlignment="Center" Margin="-8,0,8,0"/>
+                <TextBlock Text="Enregistrer" FontFamily="Aharoni" FontSize="14" Foreground="{StaticResource foregroundListNButton}"/>
+            </DockPanel>
+        </Button>
     </Grid>
 </Window>
