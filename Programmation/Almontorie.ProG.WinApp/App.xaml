@@ -1,0 +1,14 @@
+﻿<Application x:Class="Almontorie.ProG.WinApp.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:Almontorie.ProG.WinApp"
+             StartupUri="View/HomeView.xaml">
+    <Application.Resources>
+        <SolidColorBrush x:Key="background">#303030</SolidColorBrush>
+        <SolidColorBrush x:Key="foreground">#EFEFEF</SolidColorBrush>
+        <SolidColorBrush x:Key="backgroud2">#EFEFEF</SolidColorBrush>
+        <SolidColorBrush x:Key="backgroundButton">#ADD8E6</SolidColorBrush>
+        <SolidColorBrush x:Key="foregroundTextBox">#303030</SolidColorBrush>
+        <SolidColorBrush x:Key="foregroundListNButton">#303030</SolidColorBrush>
+    </Application.Resources>
+</Application>

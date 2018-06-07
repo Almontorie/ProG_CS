@@ -1,0 +1,85 @@
+﻿<Window
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Almontorie.ProG.WinApp.View"
+        xmlns:Home="clr-namespace:Almontorie.ProG.WinApp.View.Home" x:Class="Almontorie.ProG.WinApp.View.HomeView"
+        mc:Ignorable="d" 
+        Title="HomeView" Height="450" Width="800"
+         xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+
+        Background="{StaticResource background}"
+        Foreground="{StaticResource foreground}">
+
+    <Window.Resources>
+        <Style TargetType="{x:Type Button}">
+            <Style.Triggers>
+                <Trigger Property="IsMouseOver" Value="True">
+                    <Setter Property="FontWeight" Value="Normal"/>
+                    <Setter Property="FontStyle" Value="Italic"/>
+                    <Setter Property="Foreground" Value="#303030"/>
+                </Trigger>
+                <Trigger Property="IsPressed" Value="True">
+                    <Setter Property="FontWeight" Value="Bold"/>
+                </Trigger>
+            </Style.Triggers>
+            <Setter Property="Foreground" Value="{StaticResource foregroundListNButton}"/>
+            <Setter Property="Background" Value="{StaticResource backgroundButton}"/>
+            <Setter Property="FontFamily" Value="Aharoni"/>
+            <Setter Property="FontSize" Value="14"/>
+        </Style>
+        <Style TargetType="{x:Type ListView}">
+            <Setter Property="Foreground" Value="{StaticResource foregroundListNButton}"/>
+            <Setter Property="Background" Value="{StaticResource backgroud2}"/>
+            <Setter Property="FontFamily" Value="Aharoni"/>
+            <Setter Property="FontSize" Value="15"/>
+            <Setter Property="Padding" Value="1,5"/>
+        </Style>
+        <Style TargetType="{x:Type TextBlock}">
+            <Setter Property="FontFamily" Value="Aharoni"/>
+            <Setter Property="FontSize" Value="20"/>
+            <Setter Property="VerticalAlignment" Value="Center"/>
+        </Style>
+    </Window.Resources>
+
+    <Grid>
+        
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="3*"/>
+            <ColumnDefinition Width="7*"/>
+        </Grid.ColumnDefinitions>
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="auto"/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+
+        <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Margin="0,5,0,5">
+            <materialDesign:PackIcon Kind="MusicBox" VerticalAlignment="Center" HorizontalAlignment="Center" Margin="-8,0,8,0"/>
+            <TextBlock Text="Librairie : "/>
+            <TextBlock Text="{Binding MyLibrary.Length}"/>
+        </StackPanel>
+
+        <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Margin="0,5,0,5" Grid.Column="1">
+            <materialDesign:PackIcon Kind="MusicNote" VerticalAlignment="Center" HorizontalAlignment="Center" Margin="-8,0,8,0"/>
+            <TextBlock Text="Détails du morceau : "/>
+        </StackPanel>
+
+        <Grid Grid.Column="0" Grid.Row="1">
+            <Grid.RowDefinitions>
+                <RowDefinition/>
+                <RowDefinition Height="0.085*"/>
+                <RowDefinition Height="0.085*"/>
+            </Grid.RowDefinitions>
+
+            <ListView ItemsSource="{Binding MyLibrary.ListSong}" DisplayMemberPath="Name" SelectedItem="{Binding SelectedItem}" Grid.Row="0"/>
+
+            <Button Content="Ajouter une musique" Click="btnAdd_Click" Grid.Row="1"/>
+            <Button Content="Sauvegarder la librairie" Click="btnSave_Click" Grid.Row="2"/>
+
+        </Grid>
+        
+        <Home:DetailsUserControl Song="{Binding SelectedItem}" Library="{Binding MyLibrary}" Grid.Column="1" Grid.Row="1"/>
+    </Grid>
+</Window>

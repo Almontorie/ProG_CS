@@ -1,0 +1,168 @@
+﻿<Window x:Class="Almontorie.ProG.WinApp.View.Home.AddSongWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Almontorie.ProG.WinApp.View.Home"
+        mc:Ignorable="d" 
+        Title="AddSongWindow" Height="450" Width="800"
+             xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+
+        Background="{StaticResource background}"
+        Foreground="{StaticResource foreground}"
+        >
+
+
+    <Window.Resources>
+        <Style TargetType="{x:Type Button}">
+            <Style.Triggers>
+                <Trigger Property="IsMouseOver" Value="True">
+                    <Setter Property="FontWeight" Value="Normal"/>
+                    <Setter Property="FontStyle" Value="Italic"/>
+                    <Setter Property="Foreground" Value="#303030"/>
+                </Trigger>
+                <Trigger Property="IsPressed" Value="True">
+                    <Setter Property="FontWeight" Value="Bold"/>
+                </Trigger>
+            </Style.Triggers>
+            <Setter Property="Background" Value="{StaticResource backgroundButton}"/>
+        </Style>
+        <Style TargetType="{x:Type TextBlock}">
+            <Setter Property="FontFamily" Value="Aharoni"/>
+            <Setter Property="FontSize" Value="18"/>
+            <Setter Property="VerticalAlignment" Value="Center"/>
+            <!--<Setter Property="Padding" Value="5"/>-->
+        </Style>
+        <Style x:Key="LittleTextBlock" TargetType="{x:Type TextBlock}">
+            <Setter Property="FontFamily" Value="Aharoni"/>
+            <Setter Property="FontSize" Value="14"/>
+            <Setter Property="VerticalAlignment" Value="Center"/>
+            <!--<Setter Property="Padding" Value="5"/>-->
+        </Style>
+        <Style TargetType="{x:Type TextBox}">
+            <Setter Property="Foreground" Value="{StaticResource foregroundTextBox}"/>
+            <Setter Property="FontFamily" Value="Aharoni"/>
+            <Setter Property="FontSize" Value="11"/>
+            <Setter Property="VerticalAlignment" Value="Center"/>
+            <Setter Property="Margin" Value="0,1,0,1"/>
+            <Setter Property="Padding" Value="5,0"/>
+            <Setter Property="FontWeight" Value="Bold"/>
+        </Style>
+        <Style x:Key="BigTextBox" TargetType="{x:Type TextBox}">
+            <Setter Property="Foreground" Value="{StaticResource foregroundTextBox}"/>
+            <Setter Property="FontFamily" Value="Aharoni"/>
+            <Setter Property="FontSize" Value="15"/>
+            <Setter Property="VerticalAlignment" Value="Center"/>
+            <Setter Property="Margin" Value="0,1,0,1"/>
+            <Setter Property="Padding" Value="5"/>
+            <Setter Property="FontStyle" Value="Italic"/>
+        </Style>
+        <Style x:Key="GridDesign" TargetType="{x:Type Grid}">
+            <Setter Property="Margin" Value="0,5,0,5"/>
+        </Style>
+    </Window.Resources>
+
+    <Grid Margin="10">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="4*"/>
+            <ColumnDefinition Width="6*"/>
+        </Grid.ColumnDefinitions>
+
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+
+        <TextBlock Text="Nom :" Grid.Row="0"/>
+        <TextBlock Text="Artiste :" Grid.Row="1"/>
+        <TextBlock Text="Date de naissance :" Grid.Row="2"/>
+        <TextBlock Text="Album :" Grid.Row="3"/>
+        <TextBlock Text="Date de sortie :" Grid.Row="4"/>
+        <TextBlock Text="Durée :" Grid.Row="5"/>
+
+        <TextBox Name="mTextBoxName" Text="{Binding SongName}" Grid.Column="1" Style="{StaticResource BigTextBox}"/>
+        <TextBox Text="{Binding NameArtist}" Grid.Column="1" Grid.Row="1" Style="{StaticResource BigTextBox}"/>
+
+        <Grid Grid.Column="1" Grid.Row="2" Style="{StaticResource GridDesign}">
+
+            <Grid.RowDefinitions>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="4*"/>
+                <ColumnDefinition Width="6*"/>
+            </Grid.ColumnDefinitions>
+
+            <TextBlock Text="Jour :" Grid.Row="0" Style="{StaticResource LittleTextBlock}"/>
+            <TextBlock Text="Mois :" Grid.Row="1" Style="{StaticResource LittleTextBlock}"/>
+            <TextBlock Text="Année :" Grid.Row="2" Style="{StaticResource LittleTextBlock}"/>
+
+            <TextBox Text="{Binding DayArtist}" Grid.Column="1" Grid.Row="0"/>
+            <TextBox Text="{Binding MonthArtist}" Grid.Column="1" Grid.Row="1"/>
+            <TextBox Text="{Binding YearArtist}" Grid.Column="1" Grid.Row="2"/>
+
+        </Grid>
+        <TextBox Text="{Binding NameAlbum}" Grid.Column="1" Grid.Row="3" Style="{StaticResource BigTextBox}"/>
+
+        <Grid Grid.Column="1" Grid.Row="4" Style="{StaticResource GridDesign}">
+
+            <Grid.RowDefinitions>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition  Width="4*"/>
+                <ColumnDefinition  Width="6*"/>
+            </Grid.ColumnDefinitions>
+
+            <TextBlock Text="Jour :" Grid.Row="0" Style="{StaticResource LittleTextBlock}"/>
+            <TextBlock Text="Mois :" Grid.Row="1" Style="{StaticResource LittleTextBlock}"/>
+            <TextBlock Text="Année :" Grid.Row="2" Style="{StaticResource LittleTextBlock}"/>
+
+            <TextBox Text="{Binding DayAlbum}" Grid.Column="1" Grid.Row="0"/>
+            <TextBox Text="{Binding MonthAlbum}" Grid.Column="1" Grid.Row="1"/>
+            <TextBox Text="{Binding YearAlbum}" Grid.Column="1" Grid.Row="2"/>
+
+        </Grid>
+
+        <Grid Grid.Column="1" Grid.Row="5" Style="{StaticResource GridDesign}">
+
+            <Grid.RowDefinitions>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition  Width="4*"/>
+                <ColumnDefinition  Width="6*"/>
+            </Grid.ColumnDefinitions>
+
+            <TextBlock Text="Secondes :" Grid.Row="0" Style="{StaticResource LittleTextBlock}"/>
+            <TextBlock Text="Minutes :" Grid.Row="1" Style="{StaticResource LittleTextBlock}"/>
+            <TextBlock Text="Heures :" Grid.Row="2" Style="{StaticResource LittleTextBlock}"/>
+
+            <TextBox Text="{Binding Sec}" Grid.Column="1" Grid.Row="0"/>
+            <TextBox Text="{Binding Min}" Grid.Column="1" Grid.Row="1"/>
+            <TextBox Text="{Binding Hour}" Grid.Column="1" Grid.Row="2"/>
+
+        </Grid>
+
+        <Button Click="btnSave_Click" Grid.Row="8" Grid.ColumnSpan="2" Margin="0,5,0,0">
+            <DockPanel>
+                <materialDesign:PackIcon Kind="ContentSave" VerticalAlignment="Center" HorizontalAlignment="Center" Margin="-8,0,8,0"/>
+                <TextBlock Text="Enregistrer" FontFamily="Aharoni" FontSize="14" Foreground="{StaticResource foregroundListNButton}"/>
+            </DockPanel>
+        </Button>
+    </Grid>
+</Window>
