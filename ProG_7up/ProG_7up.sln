@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.27703.2018
+VisualStudioVersion = 15.0.27428.2015
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "ProG_7up", "ProG_7up\ProG_7up.vdproj", "{E16F84A3-F757-44D6-B9C2-0D0EE584F061}"
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "ProG_7up", "ProG_7up\ProG_7up.vdproj", "{DF3C1F29-7E81-4913-8071-33DBF6D0E353}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Almontorie.ProG.ConsoleApp", "..\Programmation\Almontorie.ProG.ConsoleApp\Almontorie.ProG.ConsoleApp.csproj", "{921A5062-92DB-4E4E-B255-220065CE3950}"
 EndProject
@@ -23,10 +23,10 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{E16F84A3-F757-44D6-B9C2-0D0EE584F061}.Debug|Any CPU.ActiveCfg = Debug
-		{E16F84A3-F757-44D6-B9C2-0D0EE584F061}.Debug|Any CPU.Build.0 = Debug
-		{E16F84A3-F757-44D6-B9C2-0D0EE584F061}.Release|Any CPU.ActiveCfg = Release
-		{E16F84A3-F757-44D6-B9C2-0D0EE584F061}.Release|Any CPU.Build.0 = Release
+		{DF3C1F29-7E81-4913-8071-33DBF6D0E353}.Debug|Any CPU.ActiveCfg = Debug
+		{DF3C1F29-7E81-4913-8071-33DBF6D0E353}.Debug|Any CPU.Build.0 = Debug
+		{DF3C1F29-7E81-4913-8071-33DBF6D0E353}.Release|Any CPU.ActiveCfg = Release
+		{DF3C1F29-7E81-4913-8071-33DBF6D0E353}.Release|Any CPU.Build.0 = Release
 		{921A5062-92DB-4E4E-B255-220065CE3950}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{921A5062-92DB-4E4E-B255-220065CE3950}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{921A5062-92DB-4E4E-B255-220065CE3950}.Release|Any CPU.ActiveCfg = Release|Any CPU
