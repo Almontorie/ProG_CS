@@ -1,9 +1,0 @@
-E:\Documents\Mes documents\IUT\ProG C#\ProG_CS\Programmation\Almontorie.ProG.View\bin\Debug\Almontorie.ProG.View.dll
-E:\Documents\Mes documents\IUT\ProG C#\ProG_CS\Programmation\Almontorie.ProG.View\bin\Debug\Almontorie.ProG.View.pdb
-E:\Documents\Mes documents\IUT\ProG C#\ProG_CS\Programmation\Almontorie.ProG.View\bin\Debug\Almontorie.ProG.Model.dll
-E:\Documents\Mes documents\IUT\ProG C#\ProG_CS\Programmation\Almontorie.ProG.View\bin\Debug\Almontorie.ProG.Model.pdb
-E:\Documents\Mes documents\IUT\ProG C#\ProG_CS\Programmation\Almontorie.ProG.View\obj\Debug\Almontorie.ProG.View.csprojResolveAssemblyReference.cache
-E:\Documents\Mes documents\IUT\ProG C#\ProG_CS\Programmation\Almontorie.ProG.View\obj\Debug\Almontorie.ProG.View.csproj.CoreCompileInputs.cache
-E:\Documents\Mes documents\IUT\ProG C#\ProG_CS\Programmation\Almontorie.ProG.View\obj\Debug\Almontorie.ProG.View.csproj.CopyComplete
-E:\Documents\Mes documents\IUT\ProG C#\ProG_CS\Programmation\Almontorie.ProG.View\obj\Debug\Almontorie.ProG.View.dll
-E:\Documents\Mes documents\IUT\ProG C#\ProG_CS\Programmation\Almontorie.ProG.View\obj\Debug\Almontorie.ProG.View.pdb
