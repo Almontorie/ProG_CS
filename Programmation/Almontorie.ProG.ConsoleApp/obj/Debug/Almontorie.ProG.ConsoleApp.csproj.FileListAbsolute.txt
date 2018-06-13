@@ -1,0 +1,16 @@
+E:\Documents\Mes documents\IUT\ProG C#\ProG_CS\Programmation\Almontorie.ProG.ConsoleApp\bin\Debug\Almontorie.ProG.ConsoleApp.exe.config
+E:\Documents\Mes documents\IUT\ProG C#\ProG_CS\Programmation\Almontorie.ProG.ConsoleApp\bin\Debug\Almontorie.ProG.ConsoleApp.exe
+E:\Documents\Mes documents\IUT\ProG C#\ProG_CS\Programmation\Almontorie.ProG.ConsoleApp\bin\Debug\Almontorie.ProG.ConsoleApp.pdb
+E:\Documents\Mes documents\IUT\ProG C#\ProG_CS\Programmation\Almontorie.ProG.ConsoleApp\bin\Debug\Almontorie.ProG.Controller.dll
+E:\Documents\Mes documents\IUT\ProG C#\ProG_CS\Programmation\Almontorie.ProG.ConsoleApp\bin\Debug\Almontorie.ProG.Model.dll
+E:\Documents\Mes documents\IUT\ProG C#\ProG_CS\Programmation\Almontorie.ProG.ConsoleApp\bin\Debug\Almontorie.ProG.View.dll
+E:\Documents\Mes documents\IUT\ProG C#\ProG_CS\Programmation\Almontorie.ProG.ConsoleApp\bin\Debug\Almontorie.ProG.Service.dll
+E:\Documents\Mes documents\IUT\ProG C#\ProG_CS\Programmation\Almontorie.ProG.ConsoleApp\bin\Debug\Almontorie.ProG.Controller.pdb
+E:\Documents\Mes documents\IUT\ProG C#\ProG_CS\Programmation\Almontorie.ProG.ConsoleApp\bin\Debug\Almontorie.ProG.Model.pdb
+E:\Documents\Mes documents\IUT\ProG C#\ProG_CS\Programmation\Almontorie.ProG.ConsoleApp\bin\Debug\Almontorie.ProG.View.pdb
+E:\Documents\Mes documents\IUT\ProG C#\ProG_CS\Programmation\Almontorie.ProG.ConsoleApp\bin\Debug\Almontorie.ProG.Service.pdb
+E:\Documents\Mes documents\IUT\ProG C#\ProG_CS\Programmation\Almontorie.ProG.ConsoleApp\obj\Debug\Almontorie.ProG.ConsoleApp.csprojResolveAssemblyReference.cache
+E:\Documents\Mes documents\IUT\ProG C#\ProG_CS\Programmation\Almontorie.ProG.ConsoleApp\obj\Debug\Almontorie.ProG.ConsoleApp.csproj.CoreCompileInputs.cache
+E:\Documents\Mes documents\IUT\ProG C#\ProG_CS\Programmation\Almontorie.ProG.ConsoleApp\obj\Debug\Almontorie.ProG.ConsoleApp.csproj.CopyComplete
+E:\Documents\Mes documents\IUT\ProG C#\ProG_CS\Programmation\Almontorie.ProG.ConsoleApp\obj\Debug\Almontorie.ProG.ConsoleApp.exe
+E:\Documents\Mes documents\IUT\ProG C#\ProG_CS\Programmation\Almontorie.ProG.ConsoleApp\obj\Debug\Almontorie.ProG.ConsoleApp.pdb
